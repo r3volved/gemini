@@ -1,0 +1,48 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[ "365502000043130880" ],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"help\\swith\\scode[ing]*|code[ing]*\\shelp"
+    },
+    "actions":[ "react", "send" ],
+    "response":{
+        "react":"🤔",
+        "dm":false,
+        "embed":{
+            "title":"Programming Help",
+            "description":"Tools and resources to learn programming",
+            "fields":[{
+                "name":"Bots",
+                "value":[
+                    "... coming soon ...",
+                    "`------------------------`"
+                ],
+                "inline":true
+            },{
+                "name":"Websites",
+                "value":[
+                    "... coming soon ...",
+                    "`------------------------`"
+                ],
+                "inline":true
+            },{
+                "name":"Discords",
+                "value":[
+                    "... coming soon ...",
+                    "`------------------------`"
+                ],
+                "inline":true
+            }]
+        }
+    }
+}

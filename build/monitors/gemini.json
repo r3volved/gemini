@@ -1,0 +1,25 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[ "365502000043130880" ],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "text":"hello gemini"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "embed":{
+            "title":"Hello {author}, I am GEMINI",
+            "description":"How can I assist you?",
+            "color":4805867
+        }
+    }
+}
