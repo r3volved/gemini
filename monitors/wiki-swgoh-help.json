@@ -1,0 +1,23 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^wiki\\s[search|find]{1}"
+    },
+    "wiki":{
+        "base":"https://wiki.swgoh.help/wiki/",
+        "search":"https://wiki.swgoh.help/api.php?action=query&list=search&srwhat=text&format=json&srsearch="
+    },
+    "actions":[ "wikiSearch", "send" ],
+    "response":""
+}

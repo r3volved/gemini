@@ -1,0 +1,25 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":["365502000043130880","342498895814721537"],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"(((how to|help me) mod)|htm|hmm){1} (first order|fo){1}"
+    },
+    "actions":[ "modHelp", "send" ],
+    "thumbnail":[
+        "https://swgoh.gg/static/img/assets/tex.charui_kylo_unmasked.png",
+        "https://swgoh.gg/static/img/assets/tex.charui_kyloren.png",
+        "https://swgoh.gg/static/img/assets/tex.charui_firstorder_executioner.png",
+        "https://swgoh.gg/static/img/assets/tex.charui_firstordertrooper.png"
+    ],
+    "response":"first-order.txt"
+}

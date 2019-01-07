@@ -1,0 +1,33 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[ "12345678987654321", "..." ],
+        "channels":[ "12345678987654321", "..." ],
+        "servers":[ "12345678987654321", "..." ],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[ "12345678987654321", "..." ],
+            "roles":[ "Admin" ]
+        }
+    },
+    "triggers":{
+        "regex":"^[some\\s]+(regex)$",
+        "text":"text to match",
+        "mentions":[
+            "12345678987654321"
+        ]
+    },
+    "actions":[ "react", "Some_Action_From_/actions", "send" ],
+    "response":{
+        "dm":false,
+        "react":"",
+        "content":"Text to send without embed",
+        "image":"https://cdn.discordapp.com/attachments/333971980497977345/528250405826723870/image.png",
+        "embed":{
+            "title":"Embed title",
+            "description":"Embed description",
+            "color":1234567
+        }
+    }
+}

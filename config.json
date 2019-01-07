@@ -1,0 +1,8 @@
+{
+
+    "debug":false,
+    "token":"YOUR_DISCORD_BOT_TOKEN",
+    "prefix":"?",
+    "master":[ "YOUR_DISCORD_USER_ID" ]
+    
+}

@@ -1,0 +1,37 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[ "365502000043130880" ],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"invite\\sbot[s]*|bot[s]*\\sinvite[s]*"
+    },
+    "actions":[ "react", "send" ],
+    "response":{
+        "react":"🤔",
+        "dm":false,
+        "embed":{
+            "title":"SWGOH Bot Invites",
+            "description":[
+                "✦ [SCORPIO](https://discordapp.com/oauth2/authorize?client_id=410451793751834625&scope=bot&permissions=515136)",
+                "✦ [GEMINI](https://discordapp.com/oauth2/authorize?client_id=528671282405834763&scope=bot&permissions=8)",
+                "✦ [EchoStation](https://discordapp.com/api/oauth2/authorize?client_id=416767534528987137&scope=bot&permissions=805829696)",
+                "✦ [SWGoHBot](https://discordapp.com/oauth2/authorize?client_id=315739499932024834&scope=bot&permissions=515136)",
+                "✦ [AP-5R](https://discordapp.com/oauth2/authorize?client_id=355873395164053512&scope=bot&permissions=515136)",
+                "✦ [DSR Bot](https://discordapp.com/oauth2/authorize?client_id=436693905736466432&scope=bot&permissions=392256)",
+                "✦ [KaosBot](https://discordapp.com/oauth2/authorize?client_id=423116079091417092&permissions=134442048&scope=bot)",
+                "✦ [SWGoH.events Bot](https://discordapp.com/oauth2/authorize?client_id=454788231590969344&scope=bot&permissions=515136)",
+                "✦ [PvP-Counter bot](https://discordapp.com/oauth2/authorize?client_id=525598644624162816&scope=bot&permissions=515136)",
+                "✦ [Crouching Rancor bot](https://discordapp.com/oauth2/authorize?client_id=360075123841040395&scope=bot&permissions=515136)"
+            ]
+        }
+    }
+}
