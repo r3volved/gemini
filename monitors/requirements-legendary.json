@@ -1,0 +1,19 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^(req|required){1} ([^help]|\\w+)+"
+    },
+    "actions":[ "reqHelp", "send" ],
+    "response":"automated"
+}

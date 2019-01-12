@@ -1,0 +1,24 @@
+{
+    "event":"guildMemberAdd",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[ "365502000043130880" ],
+        "ignore":{
+            "bots":false,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "actions":[ "wildBot", "send" ],
+    "roles":["quarantine"],
+    "response":{
+        "channel":"365502000043130882",
+        "embed":{
+            "title":"Bot warning",
+            "description":[],
+            "color":4805867
+        }
+    }
+}

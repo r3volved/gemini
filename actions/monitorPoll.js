@@ -1,19 +1,15 @@
 module.exports = async ( monitor ) => {
 
+    const Discord = require('discord.js')
     const reactions = ["\u0030\u20E3","\u0031\u20E3","\u0032\u20E3","\u0033\u20E3","\u0034\u20E3","\u0035\u20E3", "\u0036\u20E3","\u0037\u20E3","\u0038\u20E3","\u0039\u20E3"]
     const reactLog = reactions.map(r => 0)
     
-    const Discord = require('discord.js')
     let resultCollector = new Discord.ReactionCollector(monitor.replied, ( args, collection ) => {        
-        
-        let indx = reactions.indexOf( args._emoji.name )        
-        if( indx > -1 ) {
-            reactLog[indx]++
+        if( reactions.indexOf( args._emoji.name ) > -1 ) {
+            reactLog[reactions.indexOf( args._emoji.name )]++
             return true
-        } else {
-            return false
         }
-        
+        return false
     },{})
 
 
@@ -21,13 +17,14 @@ module.exports = async ( monitor ) => {
     for( let o of monitor.poll.o ) {
         await monitor.replied.react(reactions[++ocount])
     }
-        
+
     
     //5 minute timeout
     let pollTimeout = setTimeout(() => {
         
         resultCollector.stop()
-        
+        Bot.activePolls--
+
         let count = 0
         let embed = {
             title:monitor.poll.q,
@@ -44,6 +41,6 @@ module.exports = async ( monitor ) => {
         resultCollector = null
         clearTimeout(pollTimeout)
         
-    }, 5*60000)    
+    }, monitor.poll.t)    
         
 }

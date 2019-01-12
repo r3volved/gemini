@@ -9,18 +9,24 @@
 
 Required: Node8+, npm
 
-Install node dependencies with `npm install`
+- Install node dependencies
+
+    `npm install`
 
 
 ### From compiled
 
-Unzip desired version - from /build/published - to desired location
+Unzip desired version 
+
+- from /build/published 
+- to desired location
 
 
 ### Configure bot settings
 
 1. Acquire bot token from Discord
-   `https://discordapp.com/developers/applications/me`
+   
+    `https://discordapp.com/developers/applications/me`
 
 2. Update config.json
    - Add your bot token
@@ -33,13 +39,20 @@ Unzip desired version - from /build/published - to desired location
 
 ### From source
 
-`node gemini`
+- Windows/Linux (via command prompt)
+
+    `node ./path/to/gemini/build/gemini.js`
 
 
 ### From compiled
 
-Windows : `./path/to/gemini/gemini-win.exe`
-Linux   : `./path/to/gemini/gemini-linux`
+- Windows (via command prompt) 
+
+    `./path/to/gemini/gemini-win.exe`
+
+- Linux (via command prompt) 
+
+    `./path/to/gemini/gemini-linux`
 
 
 ## Monitors (commands)

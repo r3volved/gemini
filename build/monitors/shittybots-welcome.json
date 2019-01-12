@@ -1,0 +1,36 @@
+{
+    "event":"guildMemberAdd",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[ "365502000043130880" ],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "actions":[ "send" ],
+    "response":{
+        "channel":"365502000043130882",
+        "content":"Hello there {@member} ... ",
+        "embed":{
+            "title":"Welcome to Shittybots!",
+            "description":[
+                "__For all bot invites__, ask me about **`bot invites`**",
+                "__For more SWGoH discords__, ask me about **`swgoh help`**",
+                " ",
+                "I am a general purpose moderation and support utility. You can also download me and host me yourself to configure me any way you want.",
+                "__For GEMINI commands__, try **`help me gemini`**",
+                "",
+                "SCORPIO is a SWGoH-specific bot and can be found in <#411349285607702539>.",
+                "She can report against your in-game details to help you strategise.",
+                "__For SCORPIO commands__, try **`$help`**",
+                "",
+                "**Please enjoy your stay and let me know if I can assist you with anything!**"
+            ],
+            "color":16098851
+        }
+    }
+}

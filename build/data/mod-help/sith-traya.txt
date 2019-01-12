@@ -1,0 +1,42 @@
+https://swgoh.gg/static/img/assets/tex.charui_traya.png
+
+Modding help
+
+Sith - Traya Lead
+
+== Core Units ==
+
+zzTraya
+Priorities: Tenacity > Speed > Offense (OPT. 2 Speed > Offense > CC)
+Targets: Tenacity 100%+(Prevent TMR), Speed 220+, Offense +400
+
+zSion
+Priorities: Speed > Offense > Defense
+Targets: Speed 240+, Offense +500, Defense 45%+
+
+DN
+Priorities: Speed > Teancity
+Targets: Speed 230+, Tenacity 80%+ (Prevent TMR)
+
+Sith Trooper
+Priorities: Crit Avoidance > Defense > Health
+Targets: CA 24-35%, Defense 45%+, Health 40k+
+
+== Slot 5 ==
+
+BSF
+Priorities: Speed > Potency
+Targets: Speed 220+, Potency 100%+
+
+Thrawn
+Priorities: Speed > Tenacity > CC
+Targets: Speed 280+, Tenacity 80%+, CC +10%
+
+Dooku
+Priorities: Tenacity > Crit Avoid > Survival
+Targets: Tenacity 100%+, CA 24-35%, Health/Protection 45k+
+
+Savage Oppress
+Priorities: Speed > CC > CD
+Targets: Speed 200+, CC10%+, CD 186%+
+

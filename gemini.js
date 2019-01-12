@@ -19,6 +19,7 @@ global.Bot = {
     app     : require("./package.json"),
     config  : config,
     discord : require("./discord"),
+    webui   : require("./webui"),
     monitors: [],
     actions : {},
     //Instance handlers

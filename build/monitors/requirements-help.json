@@ -1,0 +1,43 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^(req|required)+\\shelp$"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "embed":{
+            "title":["**{client} Help**","Requirements"],
+            "description":[
+                "Plan out your farms"
+            ],
+            "fields":[{
+                "name":"**== Legendary Units ==**",
+                "value":[
+                    "**`req ep`**",
+                    "**`req thrawn`**",
+                    "**`req r2`**",
+                    "**`req bb8`**",
+                    "**`req gmy`**",
+                    "**`req chimaera`**",
+                    "**`req cls`**",
+                    "**`req rjt`**",
+                    "**`req revan`**",
+                    "**`req chew`**",
+                    "`------------------------------`"
+                ],
+                "inline":true
+            }]            
+        }
+    }
+}

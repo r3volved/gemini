@@ -1,0 +1,38 @@
+https://swgoh.gg/static/img/assets/tex.charui_kylo_unmasked.png
+
+Modding help
+
+First Order - KRU Lead
+
+== Core Units ==
+
+KRU
+Priorities: Tenacity > Health > Speed
+Targets: Tenacity 100%+, Health 40K+, Speed 210+
+
+Kylo Ren
+Priorities: Offense > Speed
+Targets: Offense 800+, Speed 220+
+
+FOX
+Priorities: CD > Offense > Health
+Targets: CD 216/222%, Offense 500+, Health 35K+
+
+FOST
+Priorities: Defense > Tenacity > Health
+Targets: Defense 45%, Tenacity 80%+, Health 35K+
+
+== Slot 5 ==
+
+FOO
+Priorities: Speed > Tenacity > Health
+Targets: Speed 240+, Tenacity 80%+, Health 45K+
+
+zBarris
+Priorities: Health > Defense > Speed
+Targets: Health 40K+, Defense 35%+, Speed 180+
+
+FOTP
+Priorities: CD > Offense > Speed
+Targets: CD 216/222%, Offense 500+, Speed 210+
+

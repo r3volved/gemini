@@ -1,0 +1,71 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":["365502000043130880","342498895814721537","266683258488487973"],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^(mod|modding)+\\shelp$"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "embed":{
+            "title":["**{client} Help**","Squad Modding"],
+            "description":[
+                "Courtesy of NvR24 and [SWGoH University](https://discord.gg/euSynux)"
+            ],
+            "fields":[{
+                "name":"**== By Stat ==**",
+                "value":[
+                    "**`htm speed`**",
+                    "`------------------------------`"
+                ],
+                "inline":true
+            },{
+                "name":"**== By Unit Type ==**",
+                "value":[
+                    "**`htm tanks`**",
+                    "`------------------------------`"
+                ],
+                "inline":true
+            },{
+                "name":"**== By Squad ==**",
+                "value":[
+                    "**`htm night sisters`**",
+                    "**`htm first order`**",
+                    "**`htm bounty hunters`**",
+                    "**`htm scoundrels`**",
+                    "**`htm ewoks`**",
+                    "**`htm rebels`**",
+                    "**`htm phoenix`**",
+                    "**`htm old republic`**",
+                    "`------------------------------`"
+                ],
+                "inline":true
+            },{
+                "name":"**== By Leader ==**",
+                "value":[
+                    "**`htm traya`**",
+                    "**`htm chirpa`**",
+                    "**`htm revan`**",
+                    "**`htm bastila`**",
+                    "**`htm asajj`**",
+                    "**`htm kru`**",
+                    "**`htm bossk`**",
+                    "**`htm qira`**",
+                    "**`htm cls`**",
+                    "**`htm hera`**",
+                    "`------------------------------`"
+                ],
+                "inline":true
+            }]            
+        }
+    }
+}

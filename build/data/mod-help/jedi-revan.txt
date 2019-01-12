@@ -1,0 +1,52 @@
+https://swgoh.gg/static/img/assets/tex.charui_jedirevan.png
+
+Modding help
+
+Jedi - Revan Lead 
+Defense
+
+== Core Units ==
+
+zzzRevan
+Priorities: Speed > CC > Offense
+Targets: Soeed 300+, CC 15%+, Offense +500
+
+zGMY
+Priorities: Offense > CC > Speed
+Targets: Offense 1500+, CC 15%+, Speed 260+
+
+zJolee
+Priorities: Health > Speed > Defense
+Targets: Health 55k+, Speed 220+, Defense 45%+
+
+== Slot 4 ==
+
+Ezra
+Priorities: CD > Offense > Speed
+Targets: CD 216%+, Offense +400, Speed 230+
+
+Aalya
+Priorities: CC > CD > Speed
+Targets: CC +15%, CD 186%+, 220+
+
+Kanaan
+Priorities: Crit Avoid > Health > Defense
+Targets: CA 24%+, Health 45k+, Defense 40%+
+
+zHY
+Priorities: Speed > Tenacity
+Targets: Speed 280%+, Tenacity 80%+
+
+Bastila
+Priorities: Speed > CC > Offense
+Targets: Soeed 240+, CC 15%+, Offense +500
+
+== Slot 5 ==
+
+Old Ben
+Priorities: Speed, Potency, Crit Avoid
+Targets: Speed 210+, Potency 80%+, Crit Avoid 24%+
+
+GK
+Priorities: Health > Defense > Crit Avoid > Speed
+Targets: Health 40k+, Defense 42%+, CA 24%+, Speed 200+

@@ -1,0 +1,33 @@
+https://swgoh.gg/static/img/assets/tex.charui_hera_s3.png
+
+Modding help
+
+Phoenix
+
+== Core Units ==
+
+Hera
+Priorities: Speed > Potency > Protection
+Targets: Speed 210+, Potency 50%+, Protection 35k+
+
+Zeb
+Priorities: Protection > Potency > Offense
+Targets: Protection 50k+, Potency 60%+, Offense +300
+
+Sabine
+Priorities: CD > Offense > Speed
+Targets: CD 186%+, Offense +400, Speed 220+
+
+Kanaan
+Priorities: Crit Avoid > CC > Protection/Health > Defense
+Targets: CA 24%+, CC +20%, Protection/Health 80k+, Defense 40%+
+
+== Slot 5 ==
+
+Chopper
+Priorities: Speed > Protection/Health > Crit Avoid
+Targets: Speed 210+, Health/Protection 80k+, CA 24%+
+
+Ezra (better used with jedi)
+Priorities: CD > Offense > Speed
+Targets: CD 216%+, Offense +400, Speed 230+

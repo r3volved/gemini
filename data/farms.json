@@ -1,0 +1,83 @@
+{
+    "emojis":{
+        "guildStore":"<:gcurr:533020203190059043>",
+        "cantinaStore":"<:ccurr:533020606749343751>",
+        "fleetStore":"<:scurr:533020755437420555>",
+        "arenaStore":"<:acurr:533020755580157982>",
+        "gwStore":"<:gwshop:533020755601129482>",
+        "shardShop":"<:sshop:533020755772964878>",
+        "guildShop":"<:gshop:533020755978485780>"
+    },
+    "units":[
+        {
+            "tags":["T3-M4"],
+            "locations":["C6B"]
+        },{
+            "tags":["Mission Vao"],
+            "locations":["C7A"]
+        },{
+            "tags":["Zaalbar"],
+            "locations":["L5D", "F3C"]
+        },{
+            "tags":["Jolee Bindo"],
+            "locations":["D6D","F4E"]
+        },{
+            "tags":["Bastila Shan"],
+            "locations":["D5B","F2D"]
+        },{
+            "tags":["Kanan Jarrus"],
+            "locations":["arenaStore"]
+        },{
+            "tags":["Ezra Bridger"],
+            "locations":["C2B"]
+        },{
+            "tags":["Hera Syndulla"],
+            "locations":["C1F"]
+        },{
+            "tags":["Garazeb \"Zeb\" Orrelios"],
+            "locations":["gwStore"]
+        },{
+            "tags":["Chopper"],
+            "locations":["cantinaStore"]
+        },{
+            "tags":["Sabine Wren"],
+            "locations":["D1A"]
+        },{
+            "tags":["Darth Vader"],
+            "locations":["fleetStore"]
+        },{
+            "tags":["Grand Moff Tarkin"],
+            "locations":["arenaStore"]
+        },{
+            "tags":["Obi-Wan Kenobi (Old Ben)"],
+            "locations":["cantinaStore"]
+        },{
+            "tags":["Stormtrooper Han"],
+            "locations":["arenaStore"]
+        },{
+            "tags":["Luke Skywalker (Farmboy)"],
+            "locations":["C1B","L7D"]
+        },{
+            "tags":["Princess Leia"],
+            "locations":["arenaStore"]
+        },{
+            "tags":["Ghost"],
+            "locations":["fleetStore","D9C"]
+        },{
+            "tags":["Phantom II"],
+            "locations":["fleetStore","D9D"]
+        },{
+            "tags":["Rey (Scavenger)"],
+            "locations":["guildStore","L2A","D5D"]
+        },{
+            "tags":["Finn"],
+            "locations":["C3E","C5C","L7A","guildStore"]
+        },{
+            "tags":["Vet Smuggler Chewbacca"],
+            "locations":["C8F"]
+        },{
+            "tags":["Vet Smuggler Han Solo"],
+            "locations":["C8G"]
+        }
+    ]
+}

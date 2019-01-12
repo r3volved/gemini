@@ -1,0 +1,59 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^\\w+\\s+is\\s+gemini$"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "content":[
+            "Hello there {@member},"
+        ],
+        "embed":{
+            "title":["**GEMINI**","WTF is GEMINI?"],
+            "description":[
+                "GEMINI is a nodejs discord bot, built around a config-based monitoring core.",
+                "GEMINI (me) can be invited to your own server - though many of my commands are limited to specific Discord servers.",
+                "",
+                "Each **command**/**monitor** is defined by it's own configuration json file and allows non-coders to leverage and chain any of the prepared **actions** against custom trigger/ignore criteria.",
+                "For further customization and scale, coders can create new or custom actions by creating new js modules.",
+                "",
+                "To unlock the full core potential to empower your own server moderation, download and run your own instance from [GitHub](https://github.com/r3volved/gemini).",
+                "GEMINI core has been compiled to run on any 64-bit windows or linux PC and only requires a Discord bot token to run.",
+                "For more details on self hosting, see the [readme](https://github.com/r3volved/gemini/blob/master/README.md)"
+            ],
+            "fields":[{
+                "name":"**== Core features ==**",
+                "value":[
+                    "- Live monitor/action reload",
+                    "- Live instance details",
+                    "- Live instance status",
+                    "- Echo utility to \"see message as bot sees it\"",
+                    "- Scope monitors to specific members, channels or servers",
+                    "- Report all loaded and unloaded monitors and actions",
+                    "- Report all servers where the bot exits",
+                    "- Force bot to leave specific server",
+                    "- Report server settings and details",
+                    "- Report channel settings and details",
+                    "- Report role settings and details",
+                    "- Add or remove roles from users",
+                    "- Automated messaging when member joins your server",
+                    "- Automated messaging when member leaves your server",
+                    "- Wild-bot quarantine to reduce spam-bots",
+                    "- Bulk-delete messages within a channel",
+                    "- More to come..."
+                ]
+            }]
+        }
+    }
+}

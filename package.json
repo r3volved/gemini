@@ -1,6 +1,6 @@
 {
   "name": "gemini",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"Codeless\", config-driven discord bot",
   "main": "gemini.js",
   "scripts": {
@@ -9,6 +9,7 @@
   "author": "Shittybill",
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.4.2",
+    "express": "^4.16.4"
   }
 }

@@ -1,0 +1,24 @@
+Counter Strategies
+
+How to beat Bounty Hunters
+
+== Option 1 == 
+
+zEP, Vader, TFP, GMT, Shore/Storm
+(does not work vs Pretaunt BH team)
+Logic: Vader must outspeed Bossk, then simply keep ability block on Bossk and kill the rest leaving bossk for last. 
+*[See it in action on SWGOH university](https://youtu.be/OycciLa-Rfg)*
+
+== Option 2 == 
+
+zVeers, Starck, Snow, Shore, Ranged
+Logic: Starck must out pace bossk, cast "Scan all wavelengths" to give 20% TM to entire team, kill weakest unit first
+*Youtube footage to come*
+
+== Option 3 == 
+
+zJTR, BB-8, R2-D2, Scav Rey, +1 
+(Can use undersized team of 4)
+(can use 3po, but overkill)
+Logic: Mind tricks Bossk, BB-8 and r2 should go before bossk, use r2 "improvise" first, kill boba/jango first
+*[See it in action on SWGOH university](https://youtu.be/8UzYbTnq7wY)*

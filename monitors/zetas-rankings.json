@@ -1,0 +1,24 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^zeta\\s+\\w+"
+    },
+    "actions":[ "zetaRankings", "send" ],
+    "response":{
+        "embed":{
+            "title":"No matches found",
+            "description":"Try a unit name or an ability name"
+        }
+    }
+}

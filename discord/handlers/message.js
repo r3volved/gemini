@@ -1,15 +1,6 @@
 //Emitted whenever a message is created
 module.exports = async ( message ) => {
     
-    if( message.content === "GEMINISTATUS" ) {
-        return message.reply([
-            `I am GEMINI`,
-            `Description: ${Bot.app.description}`,
-            `Version: ${Bot.app.version}`,
-            `Created by Shittybill`
-        ].join("\n"))
-    }
-    
     Bot.monitors
         .filter(m => !m.event || m.event === "message")
         .forEach(async m => {
@@ -43,7 +34,7 @@ module.exports = async ( message ) => {
                 
                 //Report actions performed (for dev/debug)
                 if( monitor.actioned.length ) {
-                    Report.dev( "Actions : ", monitor.actioned.map(r => r.action) )        
+                    Report.dev( "GEMINI : Routed => ", monitor.filename+" => ", monitor.actioned.map(r => r.action) )        
                 }
                 
             } catch(e) {

@@ -1,16 +1,26 @@
 module.exports = async ( monitor ) => {
 
+    if( monitor.eventParams.channel.type !== "text" && !Bot.config.master.includes(monitor.eventParams.author.id) ) {
+        Report.dev(monitor.eventParams.author.username+" trying to DM")
+        return monitor.eventParams.channel.send("Sorry, I don't do DM")
+    }
+    
+ 
     if( !monitor.response ) return false
     
     let stringified = JSON.stringify(monitor.response)
     
     //Replace {@author} with author mention || {author} with author name
-    stringified = stringified.replace(/\{\@author\}/g, "<@"+monitor.eventParams.author.id+">")
-    stringified = stringified.replace(/\{author\}/g, monitor.eventParams.author.username)
+    stringified = stringified.replace(/\{\@author\}/g, monitor.eventParams.author ? "<@"+monitor.eventParams.author.id+">" : "")
+    stringified = stringified.replace(/\{author\}/g, monitor.eventParams.author ? monitor.eventParams.author.username : "")
     
     //Replace {@member} with member mention || {member} with member name
-    stringified = stringified.replace(/\{\@member\}/g, "<@"+monitor.eventParams.member.id+">")
-    stringified = stringified.replace(/\{member\}/g, monitor.eventParams.member.user.username)
+    stringified = stringified.replace(/\{\@member\}/g, monitor.eventParams.member ? "<@"+monitor.eventParams.member.user.id+">" : "")
+    stringified = stringified.replace(/\{member\}/g, monitor.eventParams.member ? monitor.eventParams.member.user.username : "")
+
+    //Replace {@client} with bot mention || {client} with bot name
+    stringified = stringified.replace(/\{\@client\}/g, Bot.discord.client.user ? "<@"+Bot.discord.client.user.id+">" : "")
+    stringified = stringified.replace(/\{client\}/g, Bot.discord.client.user ? Bot.discord.client.user.username : "")
 
     monitor.response = JSON.parse(stringified)
 
@@ -57,13 +67,34 @@ module.exports = async ( monitor ) => {
                     : await monitor.replied.edit(( monitor.response.image ? { files:[monitor.response.image] } : null ))
         } else {
             if( !monitor.response.dm ) {
-                monitor.replied = embed
-                    ? monitor.response.content
-                        ? await monitor.eventParams.channel.send(monitor.response.content, {embed})
-                        : await monitor.eventParams.channel.send({embed})
-                    : monitor.response.content
-                        ? await monitor.eventParams.channel.send(monitor.response.content, ( monitor.response.image ? { files:[monitor.response.image] } : null ))
-                        : await monitor.eventParams.channel.send(( monitor.response.image ? { files:[monitor.response.image] } : null ))
+                let channel = monitor.response.channel
+                    ? Bot.discord.client.channels.get(monitor.response.channel)
+                    : monitor.eventParams.channel
+                        ? monitor.eventParams.channel
+                        : monitor.eventParams.message
+                            ? monitor.eventParams.message.channel 
+                            : null
+                        
+                if( channel ) {
+                    monitor.replied = embed
+                        ? monitor.response.content
+                            ? await channel.send(monitor.response.content, {embed})
+                            : await channel.send({embed})
+                        : monitor.response.content
+                            ? await channel.send(monitor.response.content, ( monitor.response.image ? { files:[monitor.response.image] } : null ))
+                            : await channel.send(( monitor.response.image ? { files:[monitor.response.image] } : null ))
+                } else if( monitor.eventParams.message ) {
+                    monitor.replied = embed
+                        ? monitor.response.content
+                            ? await monitor.eventParams.message.reply(monitor.response.content, {embed})
+                            : await monitor.eventParams.message.reply({embed})
+                        : monitor.response.content
+                            ? await monitor.eventParams.message.reply(monitor.response.content, ( monitor.response.image ? { files:[monitor.response.image] } : null ))
+                            : await monitor.eventParams.message.reply(( monitor.response.image ? { files:[monitor.response.image] } : null ))
+                } else {
+                    Report.error("Cannot send message")
+                    Report.error(monitor)
+                }
             } else {
                 monitor.replied = embed
                     ? monitor.response.content

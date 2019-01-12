@@ -3,7 +3,7 @@ module.exports = async () => {
 	
     Report.info(`GEMINI...Initializing presence`)
 
-	let presence = await Bot.discord.client.user.setActivity( 'help me', { type: 'LISTENING' } )
+	let presence = await Bot.discord.client.user.setActivity( 'help me gemini', { type: 'LISTENING' } )
 
     //CONSOLE START-UP REPORT 
     Report.info("=".repeat(60))

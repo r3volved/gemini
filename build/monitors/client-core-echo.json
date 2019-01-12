@@ -1,0 +1,19 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":["365502000043130880"],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^gemini\\s+sees\\s+(\\.)*"
+    },
+    "actions":[ "echo", "send" ],
+    "response":""
+}

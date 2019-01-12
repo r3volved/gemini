@@ -1,0 +1,89 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"help\\swith\\sswgoh|swgoh\\shelp"
+    },
+    "actions":[ "react", "send" ],
+    "response":{
+        "react":"🤔",
+        "dm":false,
+        "embed":{
+            "title":["**{client} Help**","__== Star Wars Galaxy of Heroes ==__"],
+            "description":[
+                "`------------------------`",
+                "To search wiki.swgoh.help, try",
+                "**`wiki search counters`**",
+                "`------------------------`"
+            ],
+            "fields":[{
+                "name":"Bot discords",
+                "value":[
+                    "✦ [SCORPIO](https://discord.gg/XB4DKCt)",
+                    "✦ [GEMINI](https://discord.gg/XB4DKCt)",
+                    "✦ [EchoStation](https://discord.gg/MnkBsyT)",
+                    "✦ [SWGoHBot](https://discord.gg/FfwGvhr)",
+                    "✦ [AP-5R](https://discord.gg/8GssvyU)",
+                    "✦ [DSR Bot](https://discord.gg/fkwypSp)",
+                    "✦ [KaosBot](https://discord.gg/nu99Snr)",
+                    "✦ [SWGoH.events Bot](https://discord.gg/dutmBwj)",
+                    "✦ [PvP-Counter bot](https://discord.gg/MtDn8ze)",
+                    "`------------------------`"
+                ],
+                "inline":true
+            },{
+                "name":"Resource discords",
+                "value":[
+                    "✦ [CubsFanHan](https://discord.gg/QC6gCNX)",
+                    "✦ [AhnoldT101](https://discord.gg/eT3SZCj)",
+                    "✦ [Mobile Gamer](https://discord.gg/tN9CSmj)",
+                    "✦ [Skelturix](https://discord.gg/yaeTEaP)",
+                    "✦ [Nukin](https://discord.gg/S4wWRQW)",
+                    "✦ [Urza](https://discord.gg/7gKKhBe)",
+                    "✦ [Crazy Excuses](https://discord.gg/4eb7J7U)",
+                    "✦ [SWGoH Univerity](https://discord.gg/euSynux)",
+                    "✦ [GA Flames](https://discord.gg/bJcUA9t)",
+                    "`------------------------`"
+                ],
+                "inline":true
+            },{
+                "name":"Faction discords",
+                "value":[
+                    "✦ [Jedi](https://discord.gg/Pa4PFfZ)",
+                    "✦ [Sith](https://discord.gg/Pa4PFfZ)",
+                    "✦ [Empire](https://discord.gg/cqAU32U)",
+                    "✦ [Ewoks](https://discord.gg/CeaqCan)",
+                    "✦ [Resistance](https://discord.gg/Zt6bDz5)",
+                    "✦ [First Order](https://discord.gg/nb5X7WP)",
+                    "✦ [Fleets](https://discord.gg/PSmX6z9)",
+                    "✦ [Night Sisters](https://discord.gg/meNXqyT)",
+                    "✦ [Bounty Hunters](https://discord.gg/FBM9ZW7)",
+                    "`------------------------`"
+                ],
+                "inline":true
+            },{
+                "name":"Websites",
+                "value":[
+                    "✦ [SWGoH.help (roster progress)](https://swgoh.help/)",
+                    "✦ [SWGoH.help (wiki)](https://wiki.swgoh.help/)",
+                    "✦ [SWGoH.gg](https://swgoh.gg/)",
+                    "✦ [SWGoH.life](http://www.swgoh.life/)",
+                    "✦ [GrandIvory Mod Optimizer](https://mods-optimizer.swgoh.grandivory.com/)",
+                    "✦ [Crouching Rancor](http://www.crouchingrancor.com/)",
+                    "`------------------------`"
+                ],
+                "inline":true
+            }]
+        }
+    }
+}

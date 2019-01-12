@@ -1,0 +1,21 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"\\@everyone"
+    },
+    "actions":[ "react", "atEveryone" ],
+    "response":{
+        "react":"😱"
+    }
+}

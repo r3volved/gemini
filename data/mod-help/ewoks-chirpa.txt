@@ -1,0 +1,28 @@
+https://swgoh.gg/static/img/assets/tex.charui_ewok_chirpa.png
+
+Modding help
+
+Ewoks - Chief Chirpa Lead 
+Defense
+
+== Core Units ==
+
+zChirpa
+Priorities: Speed > CD > Offense
+Targets: Speed 200+, CD 186%+, Offense +200
+
+Wicket
+Priorities: CD > Offense > Speed
+Targets: CD 216%+, Offense +400 > Speed 220+
+
+Paploo
+Priorities: Speed > Tenacity > Health
+Targets: Speed 210+, Tenacity 70%+, Health 40k+
+
+Elder
+Priorities: Health > Speed > Tenacity
+Targets: Health 30k+, Speed 210+, Tenacity 70%+
+
+Logray
+Priorities: Speed > Potency
+Targets: Speed 210+, Potency 80%+

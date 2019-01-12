@@ -1,0 +1,19 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":["305465187799007232"],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^gemini\\s+remove\\s+roles\\s+\\[\\s+((\\w|\\-|\\s)+(\\,\\s+)*)+\\s+\\]\\sfrom\\s(\\<\\@\\d{17,18}\\>(\\s)*)+$"
+    },
+    "actions":[ "rolesRemoveFromUser", "send" ],
+    "response":""
+}

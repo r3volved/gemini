@@ -1,0 +1,59 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^poll\\shelp$"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "embed":{
+            "title":["**{client} Help**","__== Poll ==__"],
+            "description":[
+                "```",
+                "start [num] [unit] poll",
+                "<question>",
+                "<option>",
+                "<option>",
+                "...",
+                "```",
+                "Poll timeout is optional (default 5 min)",
+                "*Poll timeout can be specified as follows...*"
+            ],
+            "fields":[{
+                "name":"Example 5-minute default",
+                "value":[
+                    "`------------------------------`",
+                    "```",
+                    "start poll",
+                    "My poll title",
+                    "First option",
+                    "Second option",
+                    "```"
+                ],
+                "inline":true
+            },{
+                "name":"Example 1-hour timeout",
+                "value":[
+                    "`------------------------------`",
+                    "```",
+                    "start 1 hour poll",
+                    "Try my extended poll",
+                    "That what she said",
+                    "Overcompensating",
+                    "```"
+                ],
+                "inline":true
+            }]
+        }
+    }
+}

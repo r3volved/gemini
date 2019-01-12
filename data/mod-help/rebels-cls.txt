@@ -1,0 +1,47 @@
+https://swgoh.gg/static/img/assets/tex.charui_lukebespin.png
+
+Modding help
+
+Rebels - CLS Lead
+
+== Core Units ==
+
+zCLS
+Priorities: Speed > CD > Offense
+Targets: Speed 250+, CD 216-222%, Offense +500
+
+zChewie
+Priorities: Offense > CC > CD
+Targets: Offense +1000, CC% 55%+, CD% 186%+
+
+zHan
+Priorities: CD > Offense > CC
+Targets: CD% 222%, Offense +1000, CC 75%+
+
+== Slot 4 ==
+
+C3-PO
+Priorities: Speed > Potency
+Targets: Speed 260+, Potency 100%+
+
+Chirrut
+Priorities: Health/Prot > Speed > CD
+Targets: Health/Prot (More Than CLS), Speed 240+, CD 186%+
+
+== Slot 5 ==
+
+zOld Ben
+Priorities: Speed > Potency > Defense
+Targets: Speed 210+, Potency 80%+, Defense 42%+
+
+zR2-D2
+Priorities: Speed > Potency > Tenacity
+Targets: Speed 280+, Potency 60%+, Tenacity 80%+
+
+Baze
+Priorities: Health > Crit Avoid > Tenacity
+Targets: Health 40k+, Crit Avoid 24-35%, Tenacity 100%+
+
+GK
+Priorities: Health/Prot > Crit Avoid > Defense > Speed
+Targets: Health/Prot 120k+, Crit Avoid 24-35%, Defense 40%+

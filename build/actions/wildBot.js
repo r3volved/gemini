@@ -3,9 +3,9 @@ module.exports = async ( monitor ) => {
     if( monitor.eventParams.author.bot ) {
         monitor.response.embed.title = "Warning !! {member} is a wild bot"
         try {
-            let botRole = monitor.eventParams.server.roles.find(r => r.name === "bot")
-            if( botRole && botRole.id ) {
-                monitor.actions.push({ action:"wildBot", result:monitor.eventParams.member.addRole(botRole.id) })
+            let botRoles = monitor.eventParams.server.roles.filter(r => monitor.roles.includes( r.name.toLowerCase() ))
+            if( botRoles.length ) {
+                monitor.actions.push({ action:"wildBot", result:monitor.eventParams.member.addRoles(botRoles) })
                 monitor.response.embed.description.push("Bot has been quarantined - see user "+monitor.eventParams.member.user.tag)
             } else {
                 monitor.response.embed.description.push("Unable to quarantine - see user "+monitor.eventParams.member.user.tag)

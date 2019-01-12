@@ -1,0 +1,38 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"help\\swith\\sdiscord|discord\\shelp"
+    },
+    "actions":[ "react", "send" ],
+    "response":{
+        "react":"🤔",
+        "dm":false,
+        "embed":{
+            "title":["**{client} Help**","__== Discord Help Center ==__"],
+            "description":[
+                "✦ [Announcements](https://support.discordapp.com/hc/en-us/categories/115000193752)",
+                "✦ [Interface](https://support.discordapp.com/hc/en-us/categories/200404398)",
+                "✦ [Account Settings](https://support.discordapp.com/hc/en-us/categories/200404358)",
+                "✦ [Chat](https://support.discordapp.com/hc/en-us/categories/115000217151)",
+                "✦ [Server Setup](https://support.discordapp.com/hc/en-us/categories/200404378)",
+                "✦ [Community Programs](https://support.discordapp.com/hc/en-us/categories/115000167372)",
+                "✦ [Game Store and Nitro](https://support.discordapp.com/hc/en-us/categories/360001025912)",
+                "✦ [Billing](https://support.discordapp.com/hc/en-us/categories/360001029051)",
+                "✦ [Trust and Safety](https://support.discordapp.com/hc/en-us/categories/115000168351)",
+                "✦ [FAQ](https://support.discordapp.com/hc/en-us/categories/115000168371)",
+                "`------------------------`"
+            ]
+        }
+    }
+}

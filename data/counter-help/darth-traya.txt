@@ -1,0 +1,24 @@
+Counter Strategies
+
+How to beat Darth Traya
+
+== Option 1 ==
+
+Thrawn, Magma, DT, IPD, DK 
+(IPD and DK can be replaced by 2 empire toons)
+Logic: Mod magma for 80%+ potency and as much tenacity as you can get (No Speed needed)pass thrawn turn to magma and keep attacking sion with magma and use AOE when available to manage rest of their tm, throw DT grenade to boost cooldowns in case something goes wrong, if dooku fracture dooku.  after a character dies kill the rest with death mark starting with DN. (Check to ensure traya isnt faster than your thrawn so she wont isolate Magma)
+*[See it in action on SWGOH university](https://youtu.be/QkEjA24ufyA)*
+
+== Option 2 ==
+
+Wedge, Biggs, CLS, Han, Visas/R2
+Logic: han shoots first vs weakest opponent, biggs special vs traya, with assists this should be 2 one shots, buff immune SiT, kill DN and then Sion, this team is very mod specific, need extreme DPS, 85% win rate if well modded
+*Video still to come*
+
+== Option 3 ==
+
+CLS, Chewie, Han, +2 
+(CHS good 4th, Old ben good fifth)
+Logic: Ensure CLS gets guard, han shoots first vs DN/thrawn, buff immune SiT, kill traya then sion
+*Video still to come*
+

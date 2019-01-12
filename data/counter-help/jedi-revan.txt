@@ -1,0 +1,23 @@
+Counter Strategies
+
+How to beat Jedi Knight Revan
+
+== Option 1 ==
+
+zzTraya, zSion, DN, BSF, Thrawn
+Logic: Mod traya for 100%+ Tenacity, 60k+Protection, and 24%+ Crit Avoid, pass turn with thrawn, keep traya alive, isolate GMY, Fracture Revan
+*[See it in action on SWGOH university](https://youtu.be/4ycb3T5hQlA)*
+
+== Option 2 ==
+
+zJTR, BB8, R2-D2, C3PO, RT/Nest
+Logic: Droids modded for 280+ Speed so they outpace a 325 and below revan, Stealth onto R2 or Nest to tank marked, use all intial attacks on GK so you dont pop taunt on him and proc hero on him with locked healing immunity, then kill Revan and jolee and the rest
+*[See it in action on SWGOH university](https://youtu.be/TTjSPAojCeE)*
+
+== Option 3 ==
+
+zzzCLS, zR2, zHan, zChewie, zzC3-PO
+Logic: CLS lead zeta required, shoots first vs jolee to boost R2 tm from cls lead, Stealth and leave r2 exposed, proc hero vs gk, kill jolee then gmy/revan, you may lose some toons but relatively smooth win consistently
+*Video footage still to come*
+
+

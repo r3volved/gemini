@@ -1,0 +1,85 @@
+https://swgoh.gg/static/img/assets/tex.charui_bastilashan.png
+
+Modding help
+
+Jedi - Bastila Lead
+Defense
+
+== Core Units - No Revan Owned ==
+
+zBastila
+Priorities: Speed > CC > Offense
+Targets: Soeed 240+, CC 15%+, Offense +500
+
+zGMY
+Priorities: Offense > CC > Speed
+Targets: Offense 1500+, CC 15%+, Speed 260+
+
+== Slot 3 / 4 ==
+
+Ezra
+Priorities: CD > Offense > Speed
+Targets: CD 216%+, Offense +400, Speed 230+
+
+zJolee
+Priorities: Health > Speed > Defense
+Targets: Health 55k+, Speed 220+, Defense 45%+
+
+Aalya
+Priorities: CC > CD > Speed
+Targets: CC +15%, CD 186%+, 220+
+
+Kanaan
+Priorities: Crit Avoid > Health > Defense
+Targets: CA 24%+, Health 45k+, Defense 40%+
+
+zHY
+Priorities: Speed > Tenacity
+Targets: Speed 280%+, Tenacity 80%+
+
+== Slot 5 ==
+
+Old Ben
+Priorities: Speed, Potency, Crit Avoid
+Targets: Speed 210+, Potency 80%+, Crit Avoid 24%+
+
+GK
+Priorities: Health > Defense > Crit Avoid > Speed
+Targets: Health 40k+, Defense 42%+, CA 24%+, Speed 200+
+
+== Core Units - With Revan Owned ==
+
+zBastila
+Priorities: Speed > CC > Offense
+Targets: Soeed 240+, CC 15%+, Offense +500
+
+Old Ben
+Priorities: Speed > Potency > Crit Avoid
+Targets: Speed 210+, Potency 80%+, Crit Avoid 24%+
+
+zHY
+Priorities: Speed > Tenacity
+Targets: Speed 280%+, Tenacity 80%+
+
+Kanaan
+Priorities: Crit Avoid > Health > Defense
+Targets: CA 24%+, Health 45k+, Defense 40%+
+
+===Slot 5===
+
+Ezra
+Priorities: CD > Offense > Speed
+Targets: CD 216%+, Offense +400, Speed 230+
+
+Aalya
+Priorities: CC > CD > Speed
+Targets: CC +15%, CD 186%+, Speed 220+
+
+JKA
+Priorities: CC > CD > Speed
+Targets: CC +15%, CD 186%+, Speed 220+
+
+Wampa
+Priorities: CD > Speed > Offense
+Targets: CD 216%+, Speed 220+, Offense +500
+

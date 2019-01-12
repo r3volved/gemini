@@ -1,0 +1,62 @@
+Modding help
+
+How to mod your TANKS 
+Disclaimer: I run Crit Avoidance on most tanks to increase survival. Specifically, Fost, Vandor, Zaalbar, L3-37, Zombie, Kanaan, SiT, GK I emphasize CA arrows 24-35%
+
+== First Order ==
+
+KRU
+Priorities: Tenacity > Health > Speed
+Targets: 100%+ Tenacity, 50k+ Health, 215+ Speed
+Goal prevent daze/expose/buff immunity from ewoks/zfinn
+
+FOST
+Priorities: Tenacity > Defense > Speed
+Targets: 100%+ Tenacity, 50%+ Defense, 200+ Speed
+Goal durability and prevent debuffs
+
+== Bounty Hunters ==
+
+Bossk
+Priorities: Speed > Tenacity > Defense
+Targets: 280+ Speed, 100%+ Tenacity, 45%+ Defense
+Goal fast to taunt first, tenacious to prevent ability block
+
+== Empire ==
+
+Shore
+Priorities: Health > Protection > Speed
+Targets: 185+ Speed
+Alot of TM gain through Veers lead, health drives improved healing while taunting
+
+== Scoundrels ==
+
+Vandor Chewie
+Priorities: Health > Speed > Crit Chance
+Targets: 40k+ Health, 225+ Speed, +10% CC
+Under Qira lead crits heal protection causing him to be prepared
+
+L3-37
+Priorities: Health > Defense > Crit Chance
+Targets: 40k+ Health, 45%+ Armor, +10% CC
+Paired with Qi'ra crits heal 10% protection
+
+ZaalBar
+Priorities: Tenacity > Defense > Health
+Targets: 100%+ Tenacity, 45%+ Defense
+If paired with L3 Tenacity drops down the list, passive taunt makes speed less priority
+
+== Jedi ==
+
+Old Ben
+Priorities: Speed > Potency > Defense
+Targets: 210+ Speed, 80%+ Potency, 45%+ Armor
+Quick use of mind tricks gives control of battle, defense+defense up makes him durable
+
+== Night Sisters ==
+
+Zombie
+Priorities: Speed > Protection > Health
+Targets: 220+ Speed, 70k+ Protection, 35k+ Health
+If troopers are the top counter to NS, make zombie durable to sustain troopers first onslaught, 120k combined hitpoints and 35% Crit avoidance make troopers a failed battle most often
+

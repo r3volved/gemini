@@ -1,0 +1,37 @@
+https://swgoh.gg/static/img/assets/tex.charui_carth.png
+
+Modding help
+
+Old Republic - Carth Onasi Lead
+
+== Core Units ==
+
+zCarth Onasi (zeta required)
+Priority: CD > Offense > CC > Speed
+Targets: CD 186%+, Offesne +400, CC +15%, Speed 250+
+
+Canderous Ordo
+Priority: Offense > CC > Tenacity > Speed
+Targets: Offense +500, CC +20%, Tenacity 60%+, Speed 200+
+
+zMission Vao (zeta required)
+Priority: CD > Offense > CC > Speed
+Targets: CD 186%+, Offesne +500, CC +15%, Speed 230+
+
+Zaalbar (zeta recommended)
+Priority: Crit Avoid > Tenacity > Health > Defense
+Targets: CA 24%+, Tenacity 80%+, Health 45k+, Defense 40%+
+
+== Slot 5 ==
+
+zWampa (zeta "cornered beast" required for full effect)
+Priority: CD > Offense > Speed
+Targets: CD 216%+, Offense +500, Speed 220+
+
+zNest
+Priority: Speed > CD > Tenacity
+Targets: Speed 290+,  CD 186%+, 80%+
+
+BSF
+Priority: Speed > Potency > Tenacity
+Targets: Speed 230+, Potency 100%+, Tenacity 60%+

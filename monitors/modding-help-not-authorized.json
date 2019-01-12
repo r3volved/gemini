@@ -1,0 +1,49 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "servers":["365502000043130880","342498895814721537","266683258488487973"]
+        }
+    },
+    "triggers":{
+        "regex":"^(mod|modding)+\\shelp$"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "embed":{
+            "title":["**{client} Help**","Squad Modding"],
+            "description":[
+                "Squad modding help is currently exclusive to [SWGoH University](https://discord.gg/euSynux)",
+                "Please join us for modding help and further help and discussions"
+            ],
+            "fields":[{
+                "name":"**== Modding by squad or leader ==**",
+                "value":[
+                    "`------------------------------`",
+                    "`night sisters`, `first order`,",
+                    "`bounty hunters`, `scoundrels`,",
+                    "`ewoks`, `rebels`, `traya`, `revan`,",
+                    "`bastila`, `cls`, `qira`, `chirpa`,",
+                    "`asajj`, `kru`, `bossk`, and more",
+                    "`------------------------------`"
+                ],
+                "inline":true
+            },{
+                "name":"**== Modding by stat / unit type ==**",
+                "value":[
+                    "`------------------------------`",
+                    "`speed`, `tanks`",
+                    "`------------------------------`"
+                ],
+                "inline":true
+            }]            
+        }
+    }
+}

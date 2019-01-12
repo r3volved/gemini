@@ -1,0 +1,37 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":["365502000043130880","342498895814721537","266683258488487973"],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^counter\\shelp$"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "embed":{
+            "title":["**{client} Help**","Counter Strategies"],
+            "description":[
+                "Courtesy of NvR24 and [SWGoH University](https://discord.gg/euSynux)"
+            ],
+            "fields":[{
+                "name":"**== By Squad ==**",
+                "value":[
+                    "**`htb bounty hunters`**",
+                    "**`htb revan`**",
+                    "**`htb cls`**",
+                    "**`htb traya`**",
+                    "`------------------------------`"
+                ],
+                "inline":true
+            }]            
+        }
+    }
+}

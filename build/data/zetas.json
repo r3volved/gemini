@@ -1,0 +1,2660 @@
+{
+  "request": null,
+  "sort": null,
+  "zetas": [
+    {
+      "name": "Whirlwind",
+      "type": "Special",
+      "toon": "Ahsoka Tano (Fulcrum)",
+      "pvp": 5.15,
+      "tw": 4.54,
+      "tb": 5.31,
+      "pit": 7.64,
+      "tank": 7.08,
+      "sith": 6.54,
+      "versa": 5.67
+    },
+    {
+      "name": "Quiet Confidence",
+      "type": "Unique",
+      "toon": "Amilyn Holdo",
+      "pvp": 6.1,
+      "tw": 5.4,
+      "tb": 6.1,
+      "pit": 9,
+      "tank": 8.22,
+      "sith": 7.33,
+      "versa": 7.25
+    },
+    {
+      "name": "Nightsister Swiftness",
+      "type": "Leader",
+      "toon": "Asajj Ventress",
+      "pvp": 2.5,
+      "tw": 2.17,
+      "tb": 2.5,
+      "pit": 3.27,
+      "tank": 4.08,
+      "sith": 2.17,
+      "versa": 2.55
+    },
+    {
+      "name": "Rampage",
+      "type": "Unique",
+      "toon": "Asajj Ventress",
+      "pvp": 3.08,
+      "tw": 2.58,
+      "tb": 3.83,
+      "pit": 5.91,
+      "tank": 2.83,
+      "sith": 2,
+      "versa": 2.55
+    },
+    {
+      "name": "Swift Recovery",
+      "type": "Unique",
+      "toon": "Barriss Offee",
+      "pvp": 5.7,
+      "tw": 2.9,
+      "tb": 5.3,
+      "pit": 8.5,
+      "tank": 7.67,
+      "sith": 5.44,
+      "versa": 4.89
+    },
+    {
+      "name": "Roll with the Punches",
+      "type": "Unique",
+      "toon": "BB-8",
+      "pvp": 2.5,
+      "tw": 2.42,
+      "tb": 3.83,
+      "pit": 5.5,
+      "tank": 3.42,
+      "sith": 2.67,
+      "versa": 3
+    },
+    {
+      "name": "Self-Preservation Protocol",
+      "type": "Unique",
+      "toon": "BB-8",
+      "pvp": 5.38,
+      "tw": 4.67,
+      "tb": 6.33,
+      "pit": 6.89,
+      "tank": 6.22,
+      "sith": 3.3,
+      "versa": 4.88
+    },
+    {
+      "name": "Bounty Hunter's Resolve",
+      "type": "Unique",
+      "toon": "Boba Fett",
+      "pvp": 7.5,
+      "tw": 6.3,
+      "tb": 5.22,
+      "pit": 8.25,
+      "tank": 8.25,
+      "sith": 7,
+      "versa": 8.25
+    },
+    {
+      "name": "Double Duty",
+      "type": "Unique",
+      "toon": "Bodhi Rook",
+      "pvp": 9.86,
+      "tw": 9.75,
+      "tb": 8.88,
+      "pit": 9.86,
+      "tank": 9.86,
+      "sith": 9.88,
+      "versa": 9.71
+    },
+    {
+      "name": "On The Hunt",
+      "type": "Leader",
+      "toon": "Bossk",
+      "pvp": 6.3,
+      "tw": 2.9,
+      "tb": 2.3,
+      "pit": 6.44,
+      "tank": 6,
+      "sith": 3.78,
+      "versa": 4.78
+    },
+    {
+      "name": "Trandoshan Rage",
+      "type": "Unique",
+      "toon": "Bossk",
+      "pvp": 6.2,
+      "tw": 4,
+      "tb": 3.89,
+      "pit": 7,
+      "tank": 7,
+      "sith": 4.88,
+      "versa": 6
+    },
+    {
+      "name": "Nick of Time",
+      "type": "Unique",
+      "toon": "Captain Han Solo",
+      "pvp": 7.88,
+      "tw": 7.56,
+      "tb": 7.78,
+      "pit": 9.38,
+      "tank": 9.38,
+      "sith": 9.13,
+      "versa": 9.11
+    },
+    {
+      "name": "Fire at Will",
+      "type": "Leader",
+      "toon": "Captain Phasma",
+      "pvp": 8.44,
+      "tw": 6,
+      "tb": 6.78,
+      "pit": 9.67,
+      "tank": 8.78,
+      "sith": 7.89,
+      "versa": 8.63
+    },
+    {
+      "name": "Groundwork",
+      "type": "Unique",
+      "toon": "Cassian Andor",
+      "pvp": 7.88,
+      "tw": 7.67,
+      "tb": 6.78,
+      "pit": 9.29,
+      "tank": 9.29,
+      "sith": 9.57,
+      "versa": 9
+    },
+    {
+      "name": "Ghost Company Commander",
+      "type": "Leader",
+      "toon": "CC-2224 \"Cody\"",
+      "pvp": 8.8,
+      "tw": 7.2,
+      "tb": 6.9,
+      "pit": 9.11,
+      "tank": 4.9,
+      "sith": 8.4,
+      "versa": 7
+    },
+    {
+      "name": "Simple Tactics",
+      "type": "Leader",
+      "toon": "Chief Chirpa",
+      "pvp": 5.3,
+      "tw": 2.9,
+      "tb": 3.89,
+      "pit": 6.67,
+      "tank": 5.1,
+      "sith": 3.89,
+      "versa": 4
+    },
+    {
+      "name": "Defiant Roar",
+      "type": "Special",
+      "toon": "Clone Wars Chewbacca",
+      "pvp": 9.89,
+      "tw": 9.89,
+      "tb": 9.89,
+      "pit": 9.89,
+      "tank": 9.89,
+      "sith": 9.89,
+      "versa": 10
+    },
+    {
+      "name": "Imperial Intelligence",
+      "type": "Unique",
+      "toon": "Colonel Starck",
+      "pvp": 6.22,
+      "tw": 5.11,
+      "tb": 4.33,
+      "pit": 7.5,
+      "tank": 6.67,
+      "sith": 6.88,
+      "versa": 5.25
+    },
+    {
+      "name": "Rebel Maneuvers",
+      "type": "Leader",
+      "toon": "Commander Luke Skywalker",
+      "pvp": 4.56,
+      "tw": 4,
+      "tb": 4.44,
+      "pit": 5.89,
+      "tank": 6.33,
+      "sith": 6.75,
+      "versa": 4.63
+    },
+    {
+      "name": "Learn Control",
+      "type": "Unique",
+      "toon": "Commander Luke Skywalker",
+      "pvp": 4,
+      "tw": 3.67,
+      "tb": 4.67,
+      "pit": 6.25,
+      "tank": 5.78,
+      "sith": 6.13,
+      "versa": 4.75
+    },
+    {
+      "name": "It Binds All Things",
+      "type": "Unique",
+      "toon": "Commander Luke Skywalker",
+      "pvp": 2.73,
+      "tw": 2.64,
+      "tb": 2.45,
+      "pit": 2.36,
+      "tank": 2.36,
+      "sith": 5.5,
+      "versa": 2.5
+    },
+    {
+      "name": "Flawless Riposte",
+      "type": "Unique",
+      "toon": "Count Dooku",
+      "pvp": 7.89,
+      "tw": 7,
+      "tb": 8,
+      "pit": 8.43,
+      "tank": 8.43,
+      "sith": 8,
+      "versa": 8.63
+    },
+    {
+      "name": "Tactical Awareness",
+      "type": "Unique",
+      "toon": "CT-5555 \"Fives\"",
+      "pvp": 9.38,
+      "tw": 8.13,
+      "tb": 8.88,
+      "pit": 8.33,
+      "tank": 7.63,
+      "sith": 8.38,
+      "versa": 8.86
+    },
+    {
+      "name": "Dancing Shadows",
+      "type": "Leader",
+      "toon": "Darth Maul",
+      "pvp": 4.56,
+      "tw": 3.5,
+      "tb": 4.63,
+      "pit": 8.11,
+      "tank": 7.67,
+      "sith": 6.88,
+      "versa": 5.88
+    },
+    {
+      "name": "Strength of the Void",
+      "type": "Leader",
+      "toon": "Darth Nihilus",
+      "pvp": 8.57,
+      "tw": 8.13,
+      "tb": 6.75,
+      "pit": 9.13,
+      "tank": 8.75,
+      "sith": 8.38,
+      "versa": 8.86
+    },
+    {
+      "name": "Lord of Hunger",
+      "type": "Unique",
+      "toon": "Darth Nihilus",
+      "pvp": 3.8,
+      "tw": 4.2,
+      "tb": 6.4,
+      "pit": 7.88,
+      "tank": 7.33,
+      "sith": 6.78,
+      "versa": 5.33
+    },
+    {
+      "name": "Sadistic Glee",
+      "type": "Unique",
+      "toon": "Darth Sidious",
+      "pvp": 8.13,
+      "tw": 6.29,
+      "tb": 7.29,
+      "pit": 8.25,
+      "tank": 7.38,
+      "sith": 7.5,
+      "versa": 8.14
+    },
+    {
+      "name": "Lord of Pain",
+      "type": "Unique",
+      "toon": "Darth Sion",
+      "pvp": 2.5,
+      "tw": 2.6,
+      "tb": 4.1,
+      "pit": 7.33,
+      "tank": 7.11,
+      "sith": 5.4,
+      "versa": 4
+    },
+    {
+      "name": "Compassion is Weakness",
+      "type": "Leader",
+      "toon": "Darth Traya",
+      "pvp": 2,
+      "tw": 2.1,
+      "tb": 2.8,
+      "pit": 7.67,
+      "tank": 7.22,
+      "sith": 4,
+      "versa": 2.75
+    },
+    {
+      "name": "Lord of Betrayal",
+      "type": "Unique",
+      "toon": "Darth Traya",
+      "pvp": 2.2,
+      "tw": 1.9,
+      "tb": 3.3,
+      "pit": 7.22,
+      "tank": 6.67,
+      "sith": 4.13,
+      "versa": 2.5
+    },
+    {
+      "name": "Inspiring Through Fear",
+      "type": "Leader",
+      "toon": "Darth Vader",
+      "pvp": 6.43,
+      "tw": 6.67,
+      "tb": 5.14,
+      "pit": 2.14,
+      "tank": 2.14,
+      "sith": 5.43,
+      "versa": 5.67
+    },
+    {
+      "name": "No Escape",
+      "type": "Unique",
+      "toon": "Darth Vader",
+      "pvp": 5.57,
+      "tw": 5.14,
+      "tb": 6.67,
+      "pit": 7.67,
+      "tank": 7.17,
+      "sith": 8,
+      "versa": 7.5
+    },
+    {
+      "name": "Krennic's Guard",
+      "type": "Unique",
+      "toon": "Death Trooper",
+      "pvp": 8.67,
+      "tw": 5.83,
+      "tb": 8,
+      "pit": 9.43,
+      "tank": 9.29,
+      "sith": 9.43,
+      "versa": 9.17
+    },
+    {
+      "name": "Grizzled Veteran",
+      "type": "Unique",
+      "toon": "Dengar",
+      "pvp": 9.29,
+      "tw": 8.43,
+      "tb": 7.57,
+      "pit": 9.71,
+      "tank": 9.71,
+      "sith": 9.33,
+      "versa": 9.5
+    },
+    {
+      "name": "Director of Advanced Weapons Research",
+      "type": "Leader",
+      "toon": "Director Krennic",
+      "pvp": 9.17,
+      "tw": 8.83,
+      "tb": 8.67,
+      "pit": 9.71,
+      "tank": 9.57,
+      "sith": 9.29,
+      "versa": 9.67
+    },
+    {
+      "name": "Emperor of the Galactic Empire",
+      "type": "Leader",
+      "toon": "Emperor Palpatine",
+      "pvp": 2.44,
+      "tw": 2.33,
+      "tb": 2.67,
+      "pit": 7,
+      "tank": 6.88,
+      "sith": 5,
+      "versa": 3.5
+    },
+    {
+      "name": "Crackling Doom",
+      "type": "Unique",
+      "toon": "Emperor Palpatine",
+      "pvp": 3.25,
+      "tw": 2.88,
+      "tb": 5.13,
+      "pit": 7.38,
+      "tank": 7.13,
+      "sith": 6.14,
+      "versa": 5.29
+    },
+    {
+      "name": "Flourish",
+      "type": "Special",
+      "toon": "Ezra Bridger",
+      "pvp": 5.38,
+      "tw": 5.38,
+      "tb": 6.25,
+      "pit": 7.29,
+      "tank": 5.88,
+      "sith": 5.25,
+      "versa": 5.43
+    },
+    {
+      "name": "Balanced Tactics",
+      "type": "Leader",
+      "toon": "Finn",
+      "pvp": 5.11,
+      "tw": 2.11,
+      "tb": 1.89,
+      "pit": 6.89,
+      "tank": 4.67,
+      "sith": 7.5,
+      "versa": 3.25
+    },
+    {
+      "name": "Return Fire",
+      "type": "Unique",
+      "toon": "First Order Stormtrooper",
+      "pvp": 6.86,
+      "tw": 3.71,
+      "tb": 6.14,
+      "pit": 8.43,
+      "tank": 8.29,
+      "sith": 6.83,
+      "versa": 6.83
+    },
+    {
+      "name": "Keen Eye",
+      "type": "Unique",
+      "toon": "First Order TIE Pilot",
+      "pvp": 7.5,
+      "tw": 5.17,
+      "tb": 6.33,
+      "pit": 7.83,
+      "tank": 8.17,
+      "sith": 6.67,
+      "versa": 6.8
+    },
+    {
+      "name": "Mandalorian Retaliation",
+      "type": "Leader",
+      "toon": "Gar Saxon",
+      "pvp": 9.43,
+      "tw": 8.83,
+      "tb": 8.67,
+      "pit": 9.14,
+      "tank": 9.14,
+      "sith": 9,
+      "versa": 9.67
+    },
+    {
+      "name": "Staggering Sweep",
+      "type": "Special",
+      "toon": "Garazeb \"Zeb\" Orrelios",
+      "pvp": 8.83,
+      "tw": 6.4,
+      "tb": 6.33,
+      "pit": 8.5,
+      "tank": 8.33,
+      "sith": 6.4,
+      "versa": 8
+    },
+    {
+      "name": "Aggressive Tactician",
+      "type": "Unique",
+      "toon": "General Veers",
+      "pvp": 5.5,
+      "tw": 2.75,
+      "tb": 1.38,
+      "pit": 7,
+      "tank": 5.5,
+      "sith": 4.14,
+      "versa": 3.29
+    },
+    {
+      "name": "Legendary Strategist",
+      "type": "Leader",
+      "toon": "Grand Admiral Thrawn",
+      "pvp": 6.33,
+      "tw": 3.71,
+      "tb": 3.86,
+      "pit": 7.29,
+      "tank": 6.71,
+      "sith": 5.17,
+      "versa": 4.83
+    },
+    {
+      "name": "Ebb and Flow",
+      "type": "Unique",
+      "toon": "Grand Admiral Thrawn",
+      "pvp": 4.71,
+      "tw": 4.29,
+      "tb": 5.29,
+      "pit": 4.71,
+      "tank": 4.71,
+      "sith": 3.83,
+      "versa": 4.17
+    },
+    {
+      "name": "Battle Meditation",
+      "type": "Special",
+      "toon": "Grand Master Yoda",
+      "pvp": 3.86,
+      "tw": 3.57,
+      "tb": 4.43,
+      "pit": 7.14,
+      "tank": 6.86,
+      "sith": 3.17,
+      "versa": 3.67
+    },
+    {
+      "name": "Grand Master's Guidance",
+      "type": "Leader",
+      "toon": "Grand Master Yoda",
+      "pvp": 5.43,
+      "tw": 5.29,
+      "tb": 4.43,
+      "pit": 7.86,
+      "tank": 7.43,
+      "sith": 4.29,
+      "versa": 4.83
+    },
+    {
+      "name": "Tighten the Grip",
+      "type": "Leader",
+      "toon": "Grand Moff Tarkin",
+      "pvp": 8.17,
+      "tw": 8.17,
+      "tb": 7.67,
+      "pit": 9,
+      "tank": 9,
+      "sith": 9,
+      "versa": 9
+    },
+    {
+      "name": "Callous Conviction",
+      "type": "Unique",
+      "toon": "Grand Moff Tarkin",
+      "pvp": 7.5,
+      "tw": 6.83,
+      "tb": 6,
+      "pit": 7.43,
+      "tank": 8.43,
+      "sith": 8,
+      "versa": 8
+    },
+    {
+      "name": "Threaten",
+      "type": "Special",
+      "toon": "Greedo",
+      "pvp": 9.43,
+      "tw": 8.14,
+      "tb": 7.86,
+      "pit": 9.5,
+      "tank": 9.5,
+      "sith": 9.29,
+      "versa": 9.33
+    },
+    {
+      "name": "Shoots First",
+      "type": "Unique",
+      "toon": "Han Solo",
+      "pvp": 1.13,
+      "tw": 1.38,
+      "tb": 1.63,
+      "pit": 1.75,
+      "tank": 2.25,
+      "sith": 1.75,
+      "versa": 1.29
+    },
+    {
+      "name": "Play to Strengths",
+      "type": "Special",
+      "toon": "Hera Syndulla",
+      "pvp": 8.29,
+      "tw": 6.67,
+      "tb": 6,
+      "pit": 8.14,
+      "tank": 7.57,
+      "sith": 5.67,
+      "versa": 7.6
+    },
+    {
+      "name": "Strength Flows From the Force",
+      "type": "Special",
+      "toon": "Hermit Yoda",
+      "pvp": 4.13,
+      "tw": 3.5,
+      "tb": 5,
+      "pit": 6.13,
+      "tank": 3.25,
+      "sith": 2,
+      "versa": 3.57
+    },
+    {
+      "name": "Do or Do Not",
+      "type": "Unique",
+      "toon": "Hermit Yoda",
+      "pvp": 5.25,
+      "tw": 5,
+      "tb": 6.5,
+      "pit": 8.13,
+      "tank": 8,
+      "sith": 5.13,
+      "versa": 6.29
+    },
+    {
+      "name": "Adaptive Aim Algorithm",
+      "type": "Unique",
+      "toon": "IG-88",
+      "pvp": 8.63,
+      "tw": 7.29,
+      "tb": 6.71,
+      "pit": 8.88,
+      "tank": 8.75,
+      "sith": 8.38,
+      "versa": 8.33
+    },
+    {
+      "name": "Imperial Logistics",
+      "type": "Unique",
+      "toon": "Imperial Probe Droid",
+      "pvp": 5.57,
+      "tw": 5.43,
+      "tb": 5,
+      "pit": 8.86,
+      "tank": 8.86,
+      "sith": 8.33,
+      "versa": 7.33
+    },
+    {
+      "name": "Into the Fray",
+      "type": "Leader",
+      "toon": "Jyn Erso",
+      "pvp": 8.86,
+      "tw": 5.67,
+      "tb": 3.43,
+      "pit": 8.57,
+      "tank": 8.71,
+      "sith": 8.57,
+      "versa": 7.33
+    },
+    {
+      "name": "Fierce Determination",
+      "type": "Unique",
+      "toon": "Jyn Erso",
+      "pvp": 8.57,
+      "tw": 7.86,
+      "tb": 7.14,
+      "pit": 8.14,
+      "tank": 8.86,
+      "sith": 9,
+      "versa": 8.33
+    },
+    {
+      "name": "Reprogrammed Imperial Droid",
+      "type": "Unique",
+      "toon": "K-2SO",
+      "pvp": 9,
+      "tw": 8.14,
+      "tb": 8.14,
+      "pit": 9.38,
+      "tank": 9.13,
+      "sith": 9.5,
+      "versa": 8.83
+    },
+    {
+      "name": "Total Defense",
+      "type": "Special",
+      "toon": "Kanan Jarrus",
+      "pvp": 6.88,
+      "tw": 3.71,
+      "tb": 4.88,
+      "pit": 7.75,
+      "tank": 7.5,
+      "sith": 5,
+      "versa": 5.33
+    },
+    {
+      "name": "Outrage",
+      "type": "Special",
+      "toon": "Kylo Ren",
+      "pvp": 6.13,
+      "tw": 4.25,
+      "tb": 4.75,
+      "pit": 7.38,
+      "tank": 5.25,
+      "sith": 6.29,
+      "versa": 5.29
+    },
+    {
+      "name": "Merciless Pursuit",
+      "type": "Leader",
+      "toon": "Kylo Ren (Unmasked)",
+      "pvp": 4.63,
+      "tw": 1.5,
+      "tb": 2.63,
+      "pit": 7.38,
+      "tank": 6.75,
+      "sith": 3.75,
+      "versa": 2.86
+    },
+    {
+      "name": "Scarred",
+      "type": "Unique",
+      "toon": "Kylo Ren (Unmasked)",
+      "pvp": 3.43,
+      "tw": 2,
+      "tb": 6.14,
+      "pit": 7.86,
+      "tank": 7.86,
+      "sith": 6.67,
+      "versa": 4.5
+    },
+    {
+      "name": "Shaman's Insight",
+      "type": "Unique",
+      "toon": "Logray",
+      "pvp": 7.29,
+      "tw": 6.57,
+      "tb": 6.86,
+      "pit": 8.5,
+      "tank": 7.75,
+      "sith": 6.57,
+      "versa": 6.17
+    },
+    {
+      "name": "A New Hope",
+      "type": "Leader",
+      "toon": "Luke Skywalker (Farmboy)",
+      "pvp": 9.75,
+      "tw": 9.75,
+      "tb": 9.43,
+      "pit": 9.63,
+      "tank": 9.63,
+      "sith": 9.63,
+      "versa": 10
+    },
+    {
+      "name": "Draw a Bead",
+      "type": "Unique",
+      "toon": "Luke Skywalker (Farmboy)",
+      "pvp": 9.75,
+      "tw": 8.75,
+      "tb": 8.29,
+      "pit": 9.5,
+      "tank": 8.88,
+      "sith": 9.38,
+      "versa": 9.43
+    },
+    {
+      "name": "Elegant Steps",
+      "type": "Leader",
+      "toon": "Luminara Unduli",
+      "pvp": 9.63,
+      "tw": 9.63,
+      "tb": 9.63,
+      "pit": 9.63,
+      "tank": 9.63,
+      "sith": 9.63,
+      "versa": 10
+    },
+    {
+      "name": "The Great Mother",
+      "type": "Leader",
+      "toon": "Mother Talzin",
+      "pvp": 2.75,
+      "tw": 1.88,
+      "tb": 2.5,
+      "pit": 6.63,
+      "tank": 5.63,
+      "sith": 4.75,
+      "versa": 2.86
+    },
+    {
+      "name": "Plaguebearer",
+      "type": "Unique",
+      "toon": "Mother Talzin",
+      "pvp": 2.88,
+      "tw": 2.63,
+      "tb": 3.38,
+      "pit": 6.5,
+      "tank": 6.13,
+      "sith": 3.63,
+      "versa": 3
+    },
+    {
+      "name": "Nightsister Retaliation",
+      "type": "Unique",
+      "toon": "Nightsister Initiate",
+      "pvp": 9.86,
+      "tw": 9.71,
+      "tb": 9.86,
+      "pit": 9.57,
+      "tank": 9.29,
+      "sith": 8,
+      "versa": 9.67
+    },
+    {
+      "name": "Devoted Protector",
+      "type": "Special",
+      "toon": "Obi-Wan Kenobi (Old Ben)",
+      "pvp": 3.14,
+      "tw": 2.86,
+      "tb": 5.43,
+      "pit": 7.86,
+      "tank": 7.86,
+      "sith": 6.71,
+      "versa": 4.83
+    },
+    {
+      "name": "If You Strike Me Down",
+      "type": "Unique",
+      "toon": "Obi-Wan Kenobi (Old Ben)",
+      "pvp": 5.83,
+      "tw": 5.33,
+      "tb": 7.17,
+      "pit": 8,
+      "tank": 8,
+      "sith": 7.29,
+      "versa": 7
+    },
+    {
+      "name": "Serve Again",
+      "type": "Unique",
+      "toon": "Old Daka",
+      "pvp": 4.5,
+      "tw": 4.88,
+      "tb": 5.63,
+      "pit": 7.13,
+      "tank": 6.75,
+      "sith": 4.25,
+      "versa": 5.43
+    },
+    {
+      "name": "For Pipada",
+      "type": "Unique",
+      "toon": "Pao",
+      "pvp": 9.71,
+      "tw": 9.71,
+      "tb": 9.5,
+      "pit": 9.71,
+      "tank": 9.71,
+      "sith": 9.71,
+      "versa": 10
+    },
+    {
+      "name": "Don't Hold Back",
+      "type": "Unique",
+      "toon": "Paploo",
+      "pvp": 6.67,
+      "tw": 5.67,
+      "tb": 6,
+      "pit": 7.57,
+      "tank": 7.29,
+      "sith": 6.33,
+      "versa": 5.8
+    },
+    {
+      "name": "Against All Odds",
+      "type": "Unique",
+      "toon": "Princess Leia",
+      "pvp": 8.63,
+      "tw": 7.71,
+      "tb": 7.86,
+      "pit": 8.63,
+      "tank": 7.75,
+      "sith": 7.43,
+      "versa": 7.83
+    },
+    {
+      "name": "Agility Training",
+      "type": "Leader",
+      "toon": "Qui-Gon Jinn",
+      "pvp": 7.83,
+      "tw": 4.5,
+      "tb": 5.17,
+      "pit": 8,
+      "tank": 7.57,
+      "sith": 8.17,
+      "versa": 6.4
+    },
+    {
+      "name": "Combat Analysis",
+      "type": "Unique",
+      "toon": "R2-D2",
+      "pvp": 2.13,
+      "tw": 2.25,
+      "tb": 5,
+      "pit": 6.63,
+      "tank": 6.38,
+      "sith": 2.88,
+      "versa": 3
+    },
+    {
+      "name": "Number Crunch",
+      "type": "Unique",
+      "toon": "R2-D2",
+      "pvp": 1.63,
+      "tw": 1.5,
+      "tb": 2.63,
+      "pit": 4.63,
+      "tank": 2.63,
+      "sith": 1.38,
+      "versa": 1.57
+    },
+    {
+      "name": "Dauntless",
+      "type": "Unique",
+      "toon": "Rebel Officer Leia Organa",
+      "pvp": 9,
+      "tw": 8.5,
+      "tb": 8.33,
+      "pit": 9,
+      "tank": 9,
+      "sith": 7.83,
+      "versa": 9.4
+    },
+    {
+      "name": "Inspirational Presence",
+      "type": "Leader",
+      "toon": "Rey (Jedi Training)",
+      "pvp": 1.25,
+      "tw": 1.13,
+      "tb": 1.63,
+      "pit": 2.88,
+      "tank": 1.38,
+      "sith": 1,
+      "versa": 1
+    },
+    {
+      "name": "Virtuous Protector",
+      "type": "Unique",
+      "toon": "Rey (Jedi Training)",
+      "pvp": 4.5,
+      "tw": 4.75,
+      "tb": 6.88,
+      "pit": 7.38,
+      "tank": 7.25,
+      "sith": 5.38,
+      "versa": 6.14
+    },
+    {
+      "name": "Insight",
+      "type": "Unique",
+      "toon": "Rey (Jedi Training)",
+      "pvp": 2.5,
+      "tw": 2.88,
+      "tb": 4,
+      "pit": 3.38,
+      "tank": 2.88,
+      "sith": 2,
+      "versa": 2.71
+    },
+    {
+      "name": "Focused Strikes",
+      "type": "Unique",
+      "toon": "Rey (Scavenger)",
+      "pvp": 8,
+      "tw": 7.29,
+      "tb": 7.29,
+      "pit": 8.57,
+      "tank": 7.43,
+      "sith": 7.43,
+      "versa": 8.17
+    },
+    {
+      "name": "Valiant Spirit",
+      "type": "Unique",
+      "toon": "Rose Tico",
+      "pvp": 8.88,
+      "tw": 8.38,
+      "tb": 9.13,
+      "pit": 9.38,
+      "tank": 9,
+      "sith": 9.13,
+      "versa": 9.29
+    },
+    {
+      "name": "Demolish",
+      "type": "Special",
+      "toon": "Sabine Wren",
+      "pvp": 7.38,
+      "tw": 3.71,
+      "tb": 5.5,
+      "pit": 8.25,
+      "tank": 7.88,
+      "sith": 5.57,
+      "versa": 5.67
+    },
+    {
+      "name": "Brute",
+      "type": "Unique",
+      "toon": "Savage Opress",
+      "pvp": 8.44,
+      "tw": 6.67,
+      "tb": 7.43,
+      "pit": 9.11,
+      "tank": 7.25,
+      "sith": 8.75,
+      "versa": 7.75
+    },
+    {
+      "name": "Wall of Stormtroopers",
+      "type": "Unique",
+      "toon": "Stormtrooper",
+      "pvp": 9.43,
+      "tw": 9.43,
+      "tb": 8.71,
+      "pit": 9.57,
+      "tank": 9.57,
+      "sith": 9.71,
+      "versa": 9.83
+    },
+    {
+      "name": "Bluff",
+      "type": "Unique",
+      "toon": "Stormtrooper Han",
+      "pvp": 9.11,
+      "tw": 7.88,
+      "tb": 8.14,
+      "pit": 9,
+      "tank": 8.63,
+      "sith": 7.38,
+      "versa": 8.71
+    },
+    {
+      "name": "Ferocious Protector",
+      "type": "Unique",
+      "toon": "Vandor Chewbacca",
+      "pvp": 5.33,
+      "tw": 3.17,
+      "tb": 5.67,
+      "pit": 6.83,
+      "tank": 7,
+      "sith": 4.6,
+      "versa": 5.2
+    },
+    {
+      "name": "Let the Wookiee Win",
+      "type": "Unique",
+      "toon": "Veteran Smuggler Chewbacca",
+      "pvp": 9.5,
+      "tw": 9.25,
+      "tb": 8.86,
+      "pit": 9.78,
+      "tank": 9.5,
+      "sith": 9.63,
+      "versa": 9.57
+    },
+    {
+      "name": "Swindle",
+      "type": "Unique",
+      "toon": "Veteran Smuggler Han Solo",
+      "pvp": 9.75,
+      "tw": 9.38,
+      "tb": 9.14,
+      "pit": 9.78,
+      "tank": 9.5,
+      "sith": 9.63,
+      "versa": 9.71
+    },
+    {
+      "name": "Returned to the Light",
+      "type": "Unique",
+      "toon": "Visas Marr",
+      "pvp": 6.33,
+      "tw": 5.11,
+      "tb": 7.38,
+      "pit": 9,
+      "tank": 8.63,
+      "sith": 2.5,
+      "versa": 6.38
+    },
+    {
+      "name": "Furious Foe",
+      "type": "Special",
+      "toon": "Wampa",
+      "pvp": 5.5,
+      "tw": 5.13,
+      "tb": 6.29,
+      "pit": 8.5,
+      "tank": 8.29,
+      "sith": 8.29,
+      "versa": 7.57
+    },
+    {
+      "name": "Cornered Beast",
+      "type": "Unique",
+      "toon": "Wampa",
+      "pvp": 4.75,
+      "tw": 4.75,
+      "tb": 4.29,
+      "pit": 5.63,
+      "tank": 1.43,
+      "sith": 4.71,
+      "versa": 4.86
+    },
+    {
+      "name": "Furtive Tactics",
+      "type": "Unique",
+      "toon": "Wicket",
+      "pvp": 6.86,
+      "tw": 5.29,
+      "tb": 5.83,
+      "pit": 8,
+      "tank": 6.43,
+      "sith": 5,
+      "versa": 5.83
+    },
+    {
+      "name": "Ready For Anything",
+      "type": "Unique",
+      "toon": "Young Han Solo",
+      "pvp": 5.2,
+      "tw": 3.8,
+      "tb": 4,
+      "pit": 4.8,
+      "tank": 3.17,
+      "sith": 2.6,
+      "versa": 5.5
+    },
+    {
+      "name": "Insult to Injury",
+      "type": "Unique",
+      "toon": "Qi'Ra",
+      "pvp": 7.25,
+      "tw": 4.75,
+      "tb": 5.25,
+      "pit": 7,
+      "tank": 7,
+      "sith": 3.75,
+      "versa": 4.5
+    },
+    {
+      "name": "Fighting Instinct",
+      "type": "Unique",
+      "toon": "Enfys Nest",
+      "pvp": 1.8,
+      "tw": 2,
+      "tb": 3.4,
+      "pit": 7.2,
+      "tank": 7.2,
+      "sith": 6.5,
+      "versa": 3.6
+    },
+    {
+      "name": "Perfect Timing",
+      "type": "Unique",
+      "toon": "Young Lando Calrissian",
+      "pvp": 5.25,
+      "tw": 5,
+      "tb": 5.75,
+      "pit": 8.4,
+      "tank": 8.4,
+      "sith": 4.75,
+      "versa": 4.75
+    },
+    {
+      "name": "For the Droids",
+      "type": "Unique",
+      "toon": "L3-37",
+      "pvp": 6.4,
+      "tw": 5.6,
+      "tb": 6.8,
+      "pit": 8.6,
+      "tank": 8.6,
+      "sith": 8,
+      "versa": 7.2
+    },
+    {
+      "name": "Initiative",
+      "type": "Leader",
+      "toon": "Bastila Shan",
+      "pvp": 2.67,
+      "tw": 2,
+      "tb": 5,
+      "pit": 7.17,
+      "tank": 6.83,
+      "sith": 4.33,
+      "versa": 4.17
+    },
+    {
+      "name": "That Looks Pretty Bad",
+      "type": "Special",
+      "toon": "Jolee Bindo",
+      "pvp": 2.4,
+      "tw": 2.6,
+      "tb": 3.8,
+      "pit": 8.6,
+      "tank": 8.8,
+      "sith": 4.4,
+      "versa": 4.2
+    },
+    {
+      "name": "Combat Logic Upgrade",
+      "type": "Unique",
+      "toon": "T3-M4",
+      "pvp": 7.6,
+      "tw": 5.6,
+      "tb": 7,
+      "pit": 8.33,
+      "tank": 8,
+      "sith": 7.2,
+      "versa": 7.2
+    },
+    {
+      "name": "Master Gearhead",
+      "type": "Unique",
+      "toon": "T3-M4",
+      "pvp": 7.2,
+      "tw": 6.4,
+      "tb": 7.2,
+      "pit": 8.5,
+      "tank": 8.17,
+      "sith": 6.2,
+      "versa": 7
+    },
+    {
+      "name": "Mission's Guardian",
+      "type": "Unique",
+      "toon": "Zaalbar",
+      "pvp": 7.67,
+      "tw": 5,
+      "tb": 7,
+      "pit": 9,
+      "tank": 8.5,
+      "sith": 5.8,
+      "versa": 6.4
+    },
+    {
+      "name": "Me and Big Z Forever",
+      "type": "Unique",
+      "toon": "Mission Vao",
+      "pvp": 7.2,
+      "tw": 4.2,
+      "tb": 6.25,
+      "pit": 8.2,
+      "tank": 8,
+      "sith": 4.2,
+      "versa": 5.2
+    },
+    {
+      "name": "The Quiet Assassin",
+      "type": "Leader",
+      "toon": "Embo",
+      "pvp": 7.67,
+      "tw": 6.67,
+      "tb": 8,
+      "pit": 10,
+      "tank": 10,
+      "sith": 4.33,
+      "versa": 7.67
+    },
+    {
+      "name": "Way of the Kyuzo",
+      "type": "Unique",
+      "toon": "Embo",
+      "pvp": 9,
+      "tw": 6,
+      "tb": 8.33,
+      "pit": 10,
+      "tank": 10,
+      "sith": 7.33,
+      "versa": 9
+    },
+    {
+      "name": "Snipers Expertise",
+      "type": "Special",
+      "toon": "Aurra Sing",
+      "pvp": 9,
+      "tw": 9,
+      "tb": 8.67,
+      "pit": 7.75,
+      "tank": 7.25,
+      "sith": 4.33,
+      "versa": 8
+    },
+    {
+      "name": "Game Plan",
+      "type": "Leader",
+      "toon": "Aurra Sing",
+      "pvp": 8.33,
+      "tw": 7,
+      "tb": 7.33,
+      "pit": 9.25,
+      "tank": 9.25,
+      "sith": 4.67,
+      "versa": 7.33
+    },
+    {
+      "name": "Anything To Get Ahead",
+      "type": "Leader",
+      "toon": "Jango Fett",
+      "pvp": 6,
+      "tw": 3.33,
+      "tb": 5.67,
+      "pit": 8.67,
+      "tank": 9.33,
+      "sith": 8.5,
+      "versa": 6.67
+    },
+    {
+      "name": "Notorious Reputation",
+      "type": "Unique",
+      "toon": "Jango Fett",
+      "pvp": 6,
+      "tw": 4.33,
+      "tb": 8,
+      "pit": 9.67,
+      "tank": 9.67,
+      "sith": 9.5,
+      "versa": 8
+    },
+    {
+      "name": "Loyal Friend",
+      "type": "Unique",
+      "toon": "Chewbacca",
+      "pvp": 2.67,
+      "tw": 2.67,
+      "tb": 5.67,
+      "pit": 9.67,
+      "tank": 9.67,
+      "sith": 8,
+      "versa": 5.67
+    },
+    {
+      "name": "Raging Wookiee",
+      "type": "Unique",
+      "toon": "Chewbacca",
+      "pvp": 3.67,
+      "tw": 5,
+      "tb": 8.67,
+      "pit": 9.67,
+      "tank": 9.67,
+      "sith": 9,
+      "versa": 8
+    },
+    {
+      "name": "Direct Focus",
+      "type": "Special",
+      "toon": "Jedi Knight Revan",
+      "pvp": 2.33,
+      "tw": 2,
+      "tb": 7.5,
+      "pit": 8,
+      "tank": 7.5,
+      "sith": 6.33,
+      "versa": 4
+    },
+    {
+      "name": "General of the Old Republic",
+      "type": "Leader",
+      "toon": "Jedi Knight Revan",
+      "pvp": 1,
+      "tw": 1,
+      "tb": 4.67,
+      "pit": 7.5,
+      "tank": 7,
+      "sith": 1.33,
+      "versa": 2.67
+    },
+    {
+      "name": "Hero",
+      "type": "Unique",
+      "toon": "Jedi Knight Revan",
+      "pvp": 1.67,
+      "tw": 1.67,
+      "tb": 7,
+      "pit": 8.5,
+      "tank": 8,
+      "sith": 3,
+      "versa": 3.67
+    },
+    {
+      "name": "Sith Apprentice",
+      "type": "Unique",
+      "toon": "Bastila Shan (Fallen)",
+      "pvp": 7.5,
+      "tw": 7,
+      "tb": 9.5,
+      "pit": 9.5,
+      "tank": 9.5,
+      "sith": 9,
+      "versa": 9.5
+    },
+    {
+      "name": "Oh My Goodness!",
+      "type": "Special",
+      "toon": "C-3PO",
+      "pvp": 3,
+      "tw": 3,
+      "tb": 6,
+      "pit": 9.5,
+      "tank": 7.5,
+      "sith": 4,
+      "versa": 4
+    },
+    {
+      "name": "Wait for Me!",
+      "type": "Unique",
+      "toon": "C-3PO",
+      "pvp": 4,
+      "tw": 3.5,
+      "tb": 7,
+      "pit": 9.5,
+      "tank": 9.5,
+      "sith": 6,
+      "versa": 4.5
+    },
+    {
+      "name": "I Like a Challenge",
+      "type": "Unique",
+      "toon": "Canderous Ordo",
+      "pvp": 7.5,
+      "tw": 4,
+      "tb": 8,
+      "pit": 9.5,
+      "tank": 9.5,
+      "sith": 7,
+      "versa": 7.5
+    },
+    {
+      "name": "Soldier of the Old Republic",
+      "type": "Leader",
+      "toon": "Carth Onasi",
+      "pvp": 6,
+      "tw": 3,
+      "tb": 5,
+      "pit": 9,
+      "tank": 9,
+      "sith": 8,
+      "versa": 5
+    },
+    {
+      "name": "Cathar Resilience",
+      "type": "Unique",
+      "toon": "Juhani",
+      "pvp": 5,
+      "tw": 4,
+      "tb": 6,
+      "pit": 9.5,
+      "tank": 9.5,
+      "sith": 7,
+      "versa": 5.5
+    }
+  ],
+  "details": [
+    {
+      "Faction": "Rebel",
+      "Toon": "Ahsoka Tano (Fulcrum)",
+      "Type": "Special",
+      "Name": "Whirlwind",
+      "MinLevel": 80,
+      "Description": "Cooldown - 1, the target can't Evade and has -50% Armor against this attack"
+    },
+    {
+      "Faction": "Resistance",
+      "Toon": "Amilyn Holdo",
+      "Type": "Unique",
+      "Name": "Quiet Confidence",
+      "MinLevel": 82,
+      "Description": "When another Resistance ally loses Foresight, Amilyn Holdo Recovers 10% Health. While Amilyn Holdo doesn't have Taunt, all other Resistance allies have +20% Critical Avoidance."
+    },
+    {
+      "Faction": "Nightsister",
+      "Toon": "Asajj Ventress",
+      "Type": "Leader",
+      "Name": "Nightsister Swiftness",
+      "MinLevel": 82,
+      "Description": "+25% Turn Meter Reduction Chance, +10% Turn Meter Reduction, Nightsisters gain 50% Turn Meter when they fall below 100% Health"
+    },
+    {
+      "Faction": "Nightsister",
+      "Toon": "Asajj Ventress",
+      "Type": "Unique",
+      "Name": "Rampage",
+      "MinLevel": 84,
+      "Description": "+75% Turn Meter Gain Chance, +5% Offense, +5% Critical Chance, and when any ally or enemy is defeated Asajj gains 5% Max Health until the end of the encounter"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Barriss Offee",
+      "Type": "Unique",
+      "Name": "Swift Recovery",
+      "MinLevel": 82,
+      "Description": "Whenever an ally is Critically Hit they recover 20% of their Max Health"
+    },
+    {
+      "Faction": "Droid",
+      "Toon": "BB-8",
+      "Type": "Unique",
+      "Name": "Roll with the Punches",
+      "MinLevel": 82,
+      "Description": "When BB-8 attacks out of turn, he calls a random Resistance ally to Assist"
+    },
+    {
+      "Faction": "Droid",
+      "Toon": "BB-8",
+      "Type": "Unique",
+      "Name": "Self-Preservation Protocol",
+      "MinLevel": 82,
+      "Description": "When BB-8 Evades, Droid allies recover 8% Health and 8% Protection"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Boba Fett",
+      "Type": "Unique",
+      "Name": "Bounty Hunter's Resolve",
+      "MinLevel": 82,
+      "Description": "Recover 100% Protection on a finishing blow"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Bodhi Rook",
+      "Type": "Unique",
+      "Name": "Double Duty",
+      "MinLevel": 82,
+      "Description": "At the end of each of his turns, Bodhi grants Offense Up for 2 turns to a random ally who doesn't have it"
+    },
+    {
+      "Faction": "Bounty Hunter",
+      "Toon": "Bossk",
+      "Type": "Leader",
+      "Name": "On The Hunt",
+      "MinLevel": 82,
+      "Description": "Whenever an enemy suffers a debuff or Resists, all Bounty Hunter allies recover 5% Health and Protection"
+    },
+    {
+      "Faction": "Bounty Hunter",
+      "Toon": "Bossk",
+      "Type": "Unique",
+      "Name": "Trandoshan Rage",
+      "MinLevel": 84,
+      "Description": "When Bossk loses Taunt, he gains Taunt for 1 turn if the weakest enemy has Protection"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Captain Han Solo",
+      "Type": "Unique",
+      "Name": "Nick of Time",
+      "MinLevel": 82,
+      "Description": "Whenever Han uses his Basic attack he gains +10% Max Health (stacking) for 3 turns"
+    },
+    {
+      "Faction": "First Order",
+      "Toon": "Captain Phasma",
+      "Type": "Leader",
+      "Name": "Fire at Will",
+      "MinLevel": 82,
+      "Description": "-15% Damage Penalty, triple Assist chance for First Order, and First Order allies gain Advantage for 2 turns at the start of each encounter, can't be Critically Hit while they have Advantage, and gain 20% Potency"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Cassian Andor",
+      "Type": "Unique",
+      "Name": "Groundwork",
+      "MinLevel": 82,
+      "Description": "At the start of each encounter all Rebel allies gain Protection Up (20%) for 3 turns"
+    },
+    {
+      "Faction": "Clone Trooper",
+      "Toon": "CC-2224 \"Cody\"",
+      "Type": "Leader",
+      "Name": "Ghost Company Commander",
+      "MinLevel": 82,
+      "Description": "+5% Critical Chance, +10% Defense, and Clone allies recover 5% of their Max Protection whenever they use a Basic ability"
+    },
+    {
+      "Faction": "Ewok",
+      "Toon": "Chief Chirpa",
+      "Type": "Leader",
+      "Name": "Simple Tactics",
+      "MinLevel": 82,
+      "Description": "Whenever an Ewok ally uses a Special ability, 60% chance to call another random Ewok ally to Assist"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Clone Wars Chewbacca",
+      "Type": "Special",
+      "Name": "Defiant Roar",
+      "MinLevel": 82,
+      "Description": "+25% Turn Meter Gain Chance, +10% Heal, and dispel all debuffs from self"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Colonel Starck",
+      "Type": "Unique",
+      "Name": "Imperial Intelligence",
+      "MinLevel": 82,
+      "Description": "At the end of his turn, Starck recovers 3% Protection, and removes 1% Turn Meter from all enemies for each active Empire ally (doubled for Imperial Trooper allies)"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Commander Luke Skywalker",
+      "Type": "Leader",
+      "Name": "Rebel Maneuvers",
+      "MinLevel": 82,
+      "Description": "Whenever an enemy Resists a detrimental effect, Rebel allies gain 5% Turn Meter"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Commander Luke Skywalker",
+      "Type": "Unique",
+      "Name": "Learn Control",
+      "MinLevel": 84,
+      "Description": "While Luke doesn't have Call to Action he has +50% Critical Avoidance and +100% Tenacity"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Commander Luke Skywalker",
+      "Type": "Unique",
+      "Name": "It Binds All Things",
+      "MinLevel": 85,
+      "Description": "Whenever Luke Resists a detrimental effect he recovers 5% Protection and whenever Luke inflicts a debuff he gains 10% Turn Meter and other allies gain half that amount"
+    },
+    {
+      "Faction": "Sith",
+      "Toon": "Count Dooku",
+      "Type": "Unique",
+      "Name": "Flawless Riposte",
+      "MinLevel": 82,
+      "Description": "+15% Counter Damage, recover 10% Protection and gain Critical Hit Immunity for 1 turn on counterattack"
+    },
+    {
+      "Faction": "Clone Trooper",
+      "Toon": "CT-5555 \"Fives\"",
+      "Type": "Unique",
+      "Name": "Tactical Awareness",
+      "MinLevel": 82,
+      "Description": "Fives gains 15% Turn Meter whenever another Clone ally takes damage and 7.5% Turn Meter whenever a non-Clone ally takes damage"
+    },
+    {
+      "Faction": "Sith",
+      "Toon": "Darth Maul",
+      "Type": "Leader",
+      "Name": "Dancing Shadows",
+      "MinLevel": 82,
+      "Description": "Sith allies gain Stealth for 1 turn on Evade, can't be Critically Hit while Stealthed, gain Advantage for 2 turns whenever Stealth expires, and gain all \"on Evade\" bonuses at the start of each encounter"
+    },
+    {
+      "Faction": "Sith",
+      "Toon": "Darth Nihilus",
+      "Type": "Leader",
+      "Name": "Strength of the Void",
+      "MinLevel": 82,
+      "Description": "+50% Health Steal"
+    },
+    {
+      "Faction": "Sith",
+      "Toon": "Darth Nihilus",
+      "Type": "Unique",
+      "Name": "Lord of Hunger",
+      "MinLevel": 84,
+      "Description": "At the start of each enemy turn, Nihilus inflicts Health Down on them for 2 turns"
+    },
+    {
+      "Faction": "Sith",
+      "Toon": "Darth Sidious",
+      "Type": "Unique",
+      "Name": "Sadistic Glee",
+      "MinLevel": 82,
+      "Description": "100% Turn Meter Gain Chance, +50% Potency, and gain Max Health equal to Potency percentage"
+    },
+    {
+      "Faction": "Sith",
+      "Toon": "Darth Sion",
+      "Type": "Unique",
+      "Name": "Lord of Pain",
+      "MinLevel": 84,
+      "Description": "At the end of each turn, Sion inflicts Pain for 3 turns on enemies who damaged him that turn"
+    },
+    {
+      "Faction": "Sith",
+      "Toon": "Darth Traya",
+      "Type": "Leader",
+      "Name": "Compassion is Weakness",
+      "MinLevel": 82,
+      "Description": "When an enemy uses an ability outside of their turn, they take damage equal to 35% of their Max Health. This damage can't defeat enemies. When an enemy gains a buff outside of their turn, they lose 50% Offense until the end of their next turn"
+    },
+    {
+      "Faction": "Sith",
+      "Toon": "Darth Traya",
+      "Type": "Unique",
+      "Name": "Lord of Betrayal",
+      "MinLevel": 82,
+      "Description": "At the start of each Sith ally's turn, Traya dispels all debuffs on them and deals damage equal to 5% of their Max Health for each debuff dispelled"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Darth Vader",
+      "Type": "Leader",
+      "Name": "Inspiring Through Fear",
+      "MinLevel": 82,
+      "Description": "+25% Turn Meter Reduction Chance, +10% Turn Meter Reduction, enemies immediately regain Damage Over Time for 2 turns whenever Damage Over Time expires on them while Darth Vader is alive"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Darth Vader",
+      "Type": "Unique",
+      "Name": "No Escape",
+      "MinLevel": 84,
+      "Description": "Darth Vader is immune to Turn Meter Reduction and recovers 5% Health when a Damage Over Time effect on an enemy expires"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Death Trooper",
+      "Type": "Unique",
+      "Name": "Krennic's Guard",
+      "MinLevel": 82,
+      "Description": "+5% Heal, +50% Turn Meter Gain, and Director Krennic can't be Critically Hit while Death Trooper is alive"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Dengar",
+      "Type": "Unique",
+      "Name": "Grizzled Veteran",
+      "MinLevel": 82,
+      "Description": "Add 3% Health and Protection when this ability's effects trigger"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Director Krennic",
+      "Type": "Leader",
+      "Name": "Director of Advanced Weapons Research",
+      "MinLevel": 82,
+      "Description": "Empire allies recover 10% Protection whenever they score a Critical Hit"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Emperor Palpatine",
+      "Type": "Leader",
+      "Name": "Emperor of the Galactic Empire",
+      "MinLevel": 82,
+      "Description": "When a debuff on an enemy expires, Empire and Sith allies gain 5% Turn Meter"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Emperor Palpatine",
+      "Type": "Unique",
+      "Name": "Crackling Doom",
+      "MinLevel": 84,
+      "Description": "Palpatine has +50% Max Protection, and, when he inflicts Shock, he gains 5% Max Protection until the end of the encounter"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Ezra Bridger",
+      "Type": "Special",
+      "Name": "Flourish",
+      "MinLevel": 82,
+      "Description": "+50% Damage, +25% Turn Meter Gain, and gain Defense Up for 2 turns"
+    },
+    {
+      "Faction": "Resistance",
+      "Toon": "Finn",
+      "Type": "Leader",
+      "Name": "Balanced Tactics",
+      "MinLevel": 82,
+      "Description": "Whenever a Resistance ally loses Foresight, they gain Advantage for 2 turns and whenever an enemy takes damage from Expose, reduce the cooldowns of all Resistance allies by 1 and grant them 35% Turn Meter"
+    },
+    {
+      "Faction": "First Order",
+      "Toon": "First Order Stormtrooper",
+      "Type": "Unique",
+      "Name": "Return Fire",
+      "MinLevel": 82,
+      "Description": "Whenever First Order Stormtrooper uses any Ability he has a 50% chance to call a random ally to Assist, dealing 50% damage unless they are First Order, then grants them Advantage for 2 turns if they were First Order"
+    },
+    {
+      "Faction": "First Order",
+      "Toon": "First Order TIE Pilot",
+      "Type": "Unique",
+      "Name": "Keen Eye",
+      "MinLevel": 82,
+      "Description": "15% Critical Chance, +10% Critical Damage, and First Order TIE Pilot has a 70% chance to gain Foresight for 2 turns whenever he loses Advantage"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Gar Saxon",
+      "Type": "Leader",
+      "Name": "Mandalorian Retaliation",
+      "MinLevel": 82,
+      "Description": "Whenever an Empire ally uses a Basic attack, they recover 5% Health"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Garazeb \"Zeb\" Orrelios",
+      "Type": "Special",
+      "Name": "Staggering Sweep",
+      "MinLevel": 82,
+      "Description": "Cooldown - 1, this attack can't be Evaded, and Zeb gains 10% Turn Meter for each active Phoenix ally; if the target has no debuffs, deal +75% more damage plus bonus damage equal to 20% of the target's Max Health; if the target has any buffs, ignore their Armor; if the target has any debuffs, this attack has 50% Critical Damage"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "General Veers",
+      "Type": "Unique",
+      "Name": "Aggressive Tactician",
+      "MinLevel": 82,
+      "Description": "Recover 10% Protection whenever an enemy is defeated, +20% Offense Up Chance, and +60% Turn Meter Gain Chance"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Grand Admiral Thrawn",
+      "Type": "Leader",
+      "Name": "Legendary Strategist",
+      "MinLevel": 82,
+      "Description": "Whenever an Empire ally gains or loses a status effect, they recover 2% Protection"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Grand Admiral Thrawn",
+      "Type": "Unique",
+      "Name": "Ebb and Flow",
+      "MinLevel": 84,
+      "Description": "+50% Counter Chance and +50% Tenacity while any enemies are Fractured, and whenever another Empire ally uses a Special ability while Thrawn is active, if any enemies are Fractured, Fractured enemies lose 15% Turn Meter"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Grand Master Yoda",
+      "Type": "Special",
+      "Name": "Battle Meditation",
+      "MinLevel": 84,
+      "Description": "Cooldown - 1 and gain Foresight for 2 turns"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Grand Master Yoda",
+      "Type": "Leader",
+      "Name": "Grand Master's Guidance",
+      "MinLevel": 82,
+      "Description": "+5% Tenacity, +5% Turn Meter Gain, and whenever a Jedi ally suffers a debuff they gain Tenacity Up for 1 turn at the end of that turn"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Grand Moff Tarkin",
+      "Type": "Leader",
+      "Name": "Tighten the Grip",
+      "MinLevel": 82,
+      "Description": "+2 Speed and also inflict Expose for 2 turns on enemies that fall below 100% Health during Empire allies turns."
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Grand Moff Tarkin",
+      "Type": "Unique",
+      "Name": "Callous Conviction",
+      "MinLevel": 82,
+      "Description": "Gains 20% Potency for each debuffed enemy"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Greedo",
+      "Type": "Special",
+      "Name": "Threaten",
+      "MinLevel": 82,
+      "Description": "Add Stun for 1 turn if target is reduced to less than 20% Turn Meter, this Stun can't be Resisted"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Han Solo",
+      "Type": "Unique",
+      "Name": "Shoots First",
+      "MinLevel": 82,
+      "Description": "+10% Critical Chance and the first time each turn Han uses his Basic attack, he attacks again dealing 50% less damage"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Hera Syndulla",
+      "Type": "Special",
+      "Name": "Play to Strengths",
+      "MinLevel": 82,
+      "Description": "+25% Potency, Dispel all debuffs, and if the target is Phoenix reduce their cooldowns by 1 and grant them 50% Turn Meter"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Hermit Yoda",
+      "Type": "Special",
+      "Name": "Strength Flows From the Force",
+      "MinLevel": 82,
+      "Description": "Cooldown - 1, all allies recover 20% Protection, and Jedi allies gain Foresight for 2 turns"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Hermit Yoda",
+      "Type": "Unique",
+      "Name": "Do or Do Not",
+      "MinLevel": 82,
+      "Description": "Whenever an ally with Master's Training is defeated, Yoda's cooldowns are reset"
+    },
+    {
+      "Faction": "Droid",
+      "Toon": "IG-88",
+      "Type": "Unique",
+      "Name": "Adaptive Aim Algorithm",
+      "MinLevel": 82,
+      "Description": "While IG-88 is active, Target Locked enemies can't recover Health or Protection"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Imperial Probe Droid",
+      "Type": "Unique",
+      "Name": "Imperial Logistics",
+      "MinLevel": 82,
+      "Description": "While Imperial Probe Droid is active Target Locked enemies can't gain buffs"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Jyn Erso",
+      "Type": "Leader",
+      "Name": "Into the Fray",
+      "MinLevel": 82,
+      "Description": "Rebel allies recover 5% Protection whenever they gain a buff"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Jyn Erso",
+      "Type": "Unique",
+      "Name": "Fierce Determination",
+      "MinLevel": 84,
+      "Description": "Jyn is immune to Stun"
+    },
+    {
+      "Faction": "Droid",
+      "Toon": "K-2SO",
+      "Type": "Unique",
+      "Name": "Reprogrammed Imperial Droid",
+      "MinLevel": 82,
+      "Description": "K-2SO gains 1% Max Protection whenever he takes damage"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Kanan Jarrus",
+      "Type": "Special",
+      "Name": "Total Defense",
+      "MinLevel": 82,
+      "Description": "Dispel all debuffs on Phoenix allies and grant them Defense Up for 3 turns, grant Kanan and target ally Foresight for 2 turns, and when each of these Foresights expire Kanan gains 100% Turn Meter and other Phoenix allies gain 50% Turn Meter"
+    },
+    {
+      "Faction": "First Order",
+      "Toon": "Kylo Ren",
+      "Type": "Special",
+      "Name": "Outrage",
+      "MinLevel": 82,
+      "Description": "+15% Damage and recover Protection equal to the damage dealt"
+    },
+    {
+      "Faction": "First Order",
+      "Toon": "Kylo Ren (Unmasked)",
+      "Type": "Leader",
+      "Name": "Merciless Pursuit",
+      "MinLevel": 82,
+      "Description": "+15% Critical Damage, +5 Speed, +5% Turn Meter Gain, and when a First Order ally gains a status effect they recover 5% Health and 5% Protection"
+    },
+    {
+      "Faction": "First Order",
+      "Toon": "Kylo Ren (Unmasked)",
+      "Type": "Unique",
+      "Name": "Scarred",
+      "MinLevel": 84,
+      "Description": "Kylo gains Taunt for 1 turn at the start of each encounter and has double Counter Chance while Taunting"
+    },
+    {
+      "Faction": "Ewok",
+      "Toon": "Logray",
+      "Type": "Unique",
+      "Name": "Shaman's Insight",
+      "MinLevel": 82,
+      "Description": "While Logray is active, whenever an Ewok ally scores a Critical Hit, that ally gains Health Up for 2 turns, and then all Ewok allies with Health Up recover 10% Health"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Luke Skywalker (Farmboy)",
+      "Type": "Leader",
+      "Name": "A New Hope",
+      "MinLevel": 82,
+      "Description": "+5% Tenacity and whenever an ally Resists a detrimental effect they gain Advantage for 2 turns"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Luke Skywalker (Farmboy)",
+      "Type": "Unique",
+      "Name": "Draw a Bead",
+      "MinLevel": 82,
+      "Description": "At the start of each of his turns, Luke gains 10% Critical Damage (stacking) until the end of the encounter"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Luminara Unduli",
+      "Type": "Leader",
+      "Name": "Elegant Steps",
+      "MinLevel": 82,
+      "Description": "+2% Heal and whenever any ally gains a buff they do not have, they gain a Heal Over Time effect for 2 turns"
+    },
+    {
+      "Faction": "Nightsister",
+      "Toon": "Mother Talzin",
+      "Type": "Leader",
+      "Name": "The Great Mother",
+      "MinLevel": 82,
+      "Description": "When a Nightsister ally uses a Basic ability during their turn, a random defeated Nightsister ally is Revived with 50% Health and called to Assist, then the Revived ally is immediately defeated unless an enemy was defeated (the Revived ally can't be Revived by this effect again until the end of the next turn)"
+    },
+    {
+      "Faction": "Nightsister",
+      "Toon": "Mother Talzin",
+      "Type": "Unique",
+      "Name": "Plaguebearer",
+      "MinLevel": 82,
+      "Description": "When any unit falls below half health, Talzin gains 35% Turn Meter"
+    },
+    {
+      "Faction": "Nightsister",
+      "Toon": "Nightsister Initiate",
+      "Type": "Unique",
+      "Name": "Nightsister Retaliation",
+      "MinLevel": 82,
+      "Description": "+30% Counter Chance and +50% Offense"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Obi-Wan Kenobi (Old Ben)",
+      "Type": "Special",
+      "Name": "Devoted Protector",
+      "MinLevel": 84,
+      "Description": "When this Taunt expires, Old Ben gains Taunt for 1 turn"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Obi-Wan Kenobi (Old Ben)",
+      "Type": "Unique",
+      "Name": "If You Strike Me Down",
+      "MinLevel": 82,
+      "Description": "+2% Turn Meter Gain, +20% Heal, +20% Protection Recovery, and the first time Old Ben is defeated all allies gain 25% Turn Meter"
+    },
+    {
+      "Faction": "Nightsister",
+      "Toon": "Old Daka",
+      "Type": "Unique",
+      "Name": "Serve Again",
+      "MinLevel": 82,
+      "Description": "When another ally is Revived while Old Daka is active, Old Daka gains +10% Max Health (stacking) until the end of the encounter"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Pao",
+      "Type": "Unique",
+      "Name": "For Pipada",
+      "MinLevel": 82,
+      "Description": "Gains 5% Turn Meter whenever a Rebel ally uses Basic attack."
+    },
+    {
+      "Faction": "Ewok",
+      "Toon": "Paploo",
+      "Type": "Unique",
+      "Name": "Don't Hold Back",
+      "MinLevel": 82,
+      "Description": "Whenever Paploo gains a status effect, he recovers 5% Protection"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Princess Leia",
+      "Type": "Unique",
+      "Name": "Against All Odds",
+      "MinLevel": 82,
+      "Description": "+45% Chance to Heal and whenever Leia attacks she recovers 5% Protection"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Qui-Gon Jinn",
+      "Type": "Leader",
+      "Name": "Agility Training",
+      "MinLevel": 82,
+      "Description": "+5 Speed, Jedi allies gain Offense equal to 3 times their Speed, and gain Foresight for 2 turns at the start of each encounter and whenever any unit is defeated"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "R2-D2",
+      "Type": "Unique",
+      "Name": "Combat Analysis",
+      "MinLevel": 82,
+      "Description": "While R2-D2 is active, whenever a Light Side ally scores a Critical Hit, dispel all debuffs on them"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "R2-D2",
+      "Type": "Unique",
+      "Name": "Number Crunch",
+      "MinLevel": 84,
+      "Description": "At the start of battle, and when R2-D2 is revived, other Droid, Galactic Republic, Rebel, and Resistance allies gain 10% of R2-D2's Max Protection, Offense, Max Health, and Potency until R2-D2 is defeated"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Rebel Officer Leia Organa",
+      "Type": "Unique",
+      "Name": "Dauntless",
+      "MinLevel": 82,
+      "Description": "+10% Offense and the first time each turn Leia Resists a detrimental effect or suffers a debuff she gains 35% Offense (stacking) until the end of her next turn"
+    },
+    {
+      "Faction": "Resistance",
+      "Toon": "Rey (Jedi Training)",
+      "Type": "Leader",
+      "Name": "Inspirational Presence",
+      "MinLevel": 82,
+      "Description": "When a Resistance ally uses a Special ability, all Exposed enemies lose 5% Turn Meter, which can't be Evaded or Resisted; When a Resistance ally uses a Special ability, if they aren't debuffed, reduce their Cooldowns by 1"
+    },
+    {
+      "Faction": "Resistance",
+      "Toon": "Rey (Jedi Training)",
+      "Type": "Unique",
+      "Name": "Virtuous Protector",
+      "MinLevel": 84,
+      "Description": "When Rey suffers a debuff she has a 40% chance to Dispel all debuffs on herself"
+    },
+    {
+      "Faction": "Resistance",
+      "Toon": "Rey (Jedi Training)",
+      "Type": "Unique",
+      "Name": "Insight",
+      "MinLevel": 85,
+      "Description": "At the end of her turn, if Rey already had Critical Damage Up, she gains Offense Up until she is damaged; at the start of each encounter, Rey gains Foresight until she Evades; when Rey Evades, she recovers 5% Health and 5% Protection"
+    },
+    {
+      "Faction": "Resistance",
+      "Toon": "Rey (Scavenger)",
+      "Type": "Unique",
+      "Name": "Focused Strikes",
+      "MinLevel": 82,
+      "Description": "Whenever Rey uses a Special ability, if she has no debuffs, she inflicts Daze for 2 turns which can't be Resisted"
+    },
+    {
+      "Faction": "Resistance",
+      "Toon": "Rose Tico",
+      "Type": "Unique",
+      "Name": "Valiant Spirit",
+      "MinLevel": 82,
+      "Description": "When another Resistance ally scores a Critical Hit, Rose Tico gains 10% Turn Meter"
+    },
+    {
+      "Faction": "Rebel",
+      "Toon": "Sabine Wren",
+      "Type": "Special",
+      "Name": "Demolish",
+      "MinLevel": 82,
+      "Description": "Phoenix allies gain Critical Chance Up and Offense Up for 2 turns, reduce Sabine's cooldowns by 2 on a Critical Hit, Stagger all enemies for 2 turns, and for each active Phoenix ally deal 15% more damage and Expose a random enemy"
+    },
+    {
+      "Faction": "Sith",
+      "Toon": "Savage Opress",
+      "Type": "Unique",
+      "Name": "Brute",
+      "MinLevel": 82,
+      "Description": "Gain Heal Over Time when damaged, Buff Duration + 1, +50% Turn Meter Gain Chance, Dispel all debuffs from Savage whenever he is Critically Hit"
+    },
+    {
+      "Faction": "Empire",
+      "Toon": "Stormtrooper",
+      "Type": "Unique",
+      "Name": "Wall of Stormtroopers",
+      "MinLevel": 82,
+      "Description": "Stormtrooper gains 40% Offense for each defeated Empire ally"
+    },
+    {
+      "Faction": "Tank",
+      "Toon": "Stormtrooper Han",
+      "Type": "Unique",
+      "Name": "Bluff",
+      "MinLevel": 82,
+      "Description": "Whenever Han takes damage he recovers 5% Protection"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Vandor Chewbacca",
+      "Type": "Unique",
+      "Name": "Ferocious Protector",
+      "MinLevel": 82,
+      "Description": "When another light side Scoundrel ally is defeated, Revive that ally at 60% Health, if Chewbacca is Prepared. Then, Chewbacca is no longer Prepared."
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Veteran Smuggler Chewbacca",
+      "Type": "Unique",
+      "Name": "Let the Wookiee Win",
+      "MinLevel": 82,
+      "Description": "Offense Duration + 1"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Veteran Smuggler Han Solo",
+      "Type": "Unique",
+      "Name": "Swindle",
+      "MinLevel": 82,
+      "Description": "Whenever Han gains any status effect, he gains 50 Armor Penetration (stacking) until the end of his next turn"
+    },
+    {
+      "Faction": "Healer",
+      "Toon": "Visas Marr",
+      "Type": "Unique",
+      "Name": "Returned to the Light",
+      "MinLevel": 82,
+      "Description": "While Visas Marr has no debuffs, she has a 60% chance to Assist when another ally attacks Sith enemies once per turn."
+    },
+    {
+      "Faction": "Attacker",
+      "Toon": "Wampa",
+      "Type": "Special",
+      "Name": "Furious Foe",
+      "MinLevel": 82,
+      "Description": "Inflict Healing Immunity on all enemies for 2 turns, which can't be Evaded"
+    },
+    {
+      "Faction": "Attacker",
+      "Toon": "Wampa",
+      "Type": "Unique",
+      "Name": "Cornered Beast",
+      "MinLevel": 84,
+      "Description": "Wampa has +10% Counter Chance, +5% Health Steal, and +5% Offense for each Damage Over Time effect on each enemy"
+    },
+    {
+      "Faction": "Ewok",
+      "Toon": "Wicket",
+      "Type": "Unique",
+      "Name": "Furtive Tactics",
+      "MinLevel": 82,
+      "Description": "Whenever Wicket scores a Critical Hit, all Ewok allies recover 4% Health and 2% Protection"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Young Han Solo",
+      "Type": "Unique",
+      "Name": "Ready For Anything",
+      "MinLevel": 82,
+      "Description": "While Prepared, Han has 70% chance to Assist another Scoundrel ally's attack during their turn, limited once per turn"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Qi'Ra",
+      "Type": "Unique",
+      "Name": "Insult to Injury",
+      "MinLevel": 82,
+      "Description": "+5% Potency and other Scoundrel allies also gain half Potency and Critical Damage bonuses"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Enfys Nest",
+      "Type": "Unique",
+      "Name": "Fighting Instinct",
+      "MinLevel": 82,
+      "Description": "Add Taunt Ignore, add 2% Health Steal (stacking) when enemy loses buff or debuff"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Young Lando Calrissian",
+      "Type": "Unique",
+      "Name": "Perfect Timing",
+      "MinLevel": 82,
+      "Description": "Add another 50% Chance for each debuffed enemy"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "L3-37",
+      "Type": "Unique",
+      "Name": "For the Droids",
+      "MinLevel": 82,
+      "Description": "Add The first time each other Droid ally is reduced to 1% Health, they equalize Health with L3-37"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Bastila Shan",
+      "Type": "Leader",
+      "Name": "Initiative",
+      "MinLevel": 84,
+      "Description": "Add 1 Turn Taunt on Jedi Tank allies at start of encounter, add +150% Tenacity with Protection Up "
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Jolee Bindo",
+      "Type": "Special",
+      "Name": "That Looks Pretty Bad",
+      "MinLevel": 82,
+      "Description": "Add Revive all defeated Jedi allies at 80% Health with Crit Immunity for 5 turns"
+    },
+    {
+      "Faction": "Droid",
+      "Toon": "T3-M4",
+      "Type": "Unique",
+      "Name": "Combat Logic Upgrade",
+      "MinLevel": 82,
+      "Description": "Add Droid allies also gain 8% Potency and Critical Hit Chance when T3-M4 uses an ability. Also Droid allies have +8% Critical Damage for each debuff on the enemy team."
+    },
+    {
+      "Faction": "Droid",
+      "Toon": "T3-M4",
+      "Type": "Unique",
+      "Name": "Master Gearhead",
+      "MinLevel": 84,
+      "Description": "Droid allies gain 100% of T3-M4's Defense Penetration."
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Zaalbar",
+      "Type": "Unique",
+      "Name": "Mission's Guardian",
+      "MinLevel": 82,
+      "Description": "At the start of each of his turns, Zaalbar and Mission recover 10% Protection for each Damage Over Time effect on enemies"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Mission Vao",
+      "Type": "Unique",
+      "Name": "Me and Big Z Forever",
+      "MinLevel": 82,
+      "Description": "Once per turn, Mission Assists when Zaalbar uses an ability"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Embo",
+      "Type": "Leader",
+      "Name": "The Quiet Assassin",
+      "MinLevel": 82,
+      "Description": "When a Bounty Hunter ally scores a Critical Hit during their turn, they gain Offense Up for 1 turn"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Embo",
+      "Type": "Unique",
+      "Name": "Way of the Kyuzo",
+      "MinLevel": 84,
+      "Description": "Embo Can't Be Critically Hit"
+    },
+    {
+      "Faction": "Bounty Hunter",
+      "Toon": "Aurra Sing",
+      "Type": "Special",
+      "Name": "Snipers Expertise",
+      "MinLevel": 82,
+      "Description": "Add if the target is Toppled, this ability's cooldown is reset"
+    },
+    {
+      "Faction": "Bounty Hunter",
+      "Toon": "Aurra Sing",
+      "Type": "Leader",
+      "Name": "Game Plan",
+      "MinLevel": 84,
+      "Description": "Add whenever a Bounty Hunter ally defeats an enemy, Bounty Hunter Attackers gain Stealth for 2 turns"
+    },
+    {
+      "Faction": "Bounty Hunter",
+      "Toon": "Jango Fett",
+      "Type": "Leader",
+      "Name": "Anything To Get Ahead",
+      "MinLevel": 82,
+      "Description": "Enemies have -20% Potency for each debuff on all Bounty Hunter allies; Bounty Hunters have +35% Offense while they have Bounty Hunter's Resolve"
+    },
+    {
+      "Faction": "Bounty Hunter",
+      "Toon": "Jango Fett",
+      "Type": "Unique",
+      "Name": "Notorious Reputation",
+      "MinLevel": 84,
+      "Description": "Enemies defeated on his turn cannot be Revived"
+    },
+    {
+      "Faction": "Attacker",
+      "Toon": "Chewbacca",
+      "Type": "Unique",
+      "Name": "Loyal Friend",
+      "MinLevel": 82,
+      "Description": "When Chewbacca deals damage to an enemy, Chewbacca and all Guarded allies recover 3% Health and 3% Protection"
+    },
+    {
+      "Faction": "Attacker",
+      "Toon": "Chewbacca",
+      "Type": "Unique",
+      "Name": "Raging Wookiee",
+      "MinLevel": 84,
+      "Description": "Chewbacca is immune to Ability Block and Cooldown Increase"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Jedi Knight Revan",
+      "Type": "Special",
+      "Name": "Direct Focus",
+      "MinLevel": 82,
+      "Description": "Add Buff Immunity for 2 turns, which can't be Resisted, Copied, or Dispelled and increase their cooldowns by 1 and Stun the target for 1 turn"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Jedi Knight Revan",
+      "Type": "Leader",
+      "Name": "General of the Old Republic",
+      "MinLevel": 84,
+      "Description": "Add whenever a Jedi ally attacks out of turn they recover 20% of their Max Protection and deal 35% more damage. When a Jedi ally uses a Basic ability on an enemy with Bonus Protection, reduce the target enemy's Max Health by 10% (stacking, doesn't work against Raid Bosses). Jedi allies begin the battle with Tenacity Up for 1 turn"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Jedi Knight Revan",
+      "Type": "Unique",
+      "Name": "Hero",
+      "MinLevel": 85,
+      "Description": "Add Jedi Knight Revan is Immune to Stun and Ability Block and other Light Side allies also gain half of these bonuses. The bonuses are doubled while Revan is in the leader slot and not the ally slot"
+    },
+    {
+      "Faction": "Sith",
+      "Toon": "Bastila Shan (Fallen)",
+      "Type": "Unique",
+      "Name": "Sith Apprentice",
+      "MinLevel": 84,
+      "Description": "Bastila and the character in the leader slot gain Foresight for 1 turn at the start of battle"
+    },
+    {
+      "Faction": "Droid",
+      "Toon": "C-3PO",
+      "Type": "Special",
+      "Name": "Oh My Goodness!",
+      "MinLevel": 82,
+      "Description": "Inflict Confuse twice on target enemy for 3 turns"
+    },
+    {
+      "Faction": "Droid",
+      "Toon": "C-3PO",
+      "Type": "Unique",
+      "Name": "Wait for Me!",
+      "MinLevel": 84,
+      "Description": "At start of encounter, C-3PO and R2-D2 gain Translation for 3 turns"
+    },
+    {
+      "Faction": "Scoundrel",
+      "Toon": "Canderous Ordo",
+      "Type": "Unique",
+      "Name": "I Like a Challenge",
+      "MinLevel": 82,
+      "Description": "Canderous gains Critical Damage Up for 2 turns when an enemy gains Taunt, or becomes Deathmarked or Marked"
+    },
+    {
+      "Faction": "Attacker",
+      "Toon": "Carth Onasi",
+      "Type": "Leader",
+      "Name": "Soldier of the Old Republic",
+      "MinLevel": 82,
+      "Description": "Whenever an enemy is inflicted with a Damage Over Time effect, all Old Republic allies recover 3% Health and Protection"
+    },
+    {
+      "Faction": "Jedi",
+      "Toon": "Juhani",
+      "Type": "Unique",
+      "Name": "Cathar Resilience",
+      "MinLevel": 82,
+      "Description": "When Juhani drops below 100% Health, she recovers 5% Protection for each active Jedi or Old Republic ally, then gains Offense Up and Health Steal Up for 2 turns."
+    }
+  ],
+  "usage": [
+    {
+      "version": [
+        "0.1"
+      ],
+      "url": [
+        "https://script.google.com/macros/s/AKfycbyq_SH4OpcbAyEGtG4ysRrvvqr4jYihrfTgQyOHfUFhR2pVYYM/exec"
+      ],
+      "params": {
+        "request": "request a specific item",
+        "sort": "sort on any zeta field"
+      },
+      "request": {
+        "zetas": "ranked zeta list",
+        "usage": "version and usage details",
+        "credits": "credits and thanks",
+        "null": "all of the above"
+      },
+      "sort": {
+        "pvp": "zeta ranking as it pertains to arena efficacy",
+        "tw": "zeta ranking as it pertains to Territory War efficacy (i.e. offense and defense)",
+        "tb": "zeta ranking as it pertains to Territory Battles efficacy (i.e. SM/CM)",
+        "pit": "zeta ranking as it pertains to [heroic] Rancor raid efficacy",
+        "tank": "zeta ranking as it pertains to [heroic] AAT raid efficacy",
+        "sith": "zeta ranking as it pertains to [heroic] Sith Triumverate Raid efficacy",
+        "versatility": "zeta ranking as it pertains to overall zeta efficacy across various team compositions and game aspects"
+      },
+      "examples": [
+        ".../exec",
+        ".../exec?request=usage",
+        ".../exec?request=zetas&sort=sith",
+        ".../exec?sort=versa",
+        ".../exec?sort=toon"
+      ],
+      "note": [
+        "Zeta's ranked by leading experts and Game Changers",
+        "Zetas ranked 1-10 (best to worst)",
+        "Various categories of ranking, as to cover multiple game aspects (i.e. PvP, Raids, etc.)"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "Name": "shittybill",
+      "Discord": "shittybill#3024",
+      "Link": "https://discord.gg/XB4DKCt",
+      "Credit": "The man, the myth, the legend"
+    },
+    {
+      "Name": "CaptainHammer",
+      "Discord": "CaptainHammer#4434",
+      "Link": "",
+      "Credit": "Helping build this crazy data feed / hSTR aficianado"
+    },
+    {
+      "Name": "Anex",
+      "Discord": "anex#1005",
+      "Link": "https://docs.google.com/document/d/1gR4l7BWevKgL9zzMlVuCsdOpyp-rPS6bvtrV4dGcY5c/edit?usp=sharing",
+      "Credit": "Sith raid extraordinaire"
+    },
+    {
+      "Name": "Skelturix",
+      "Discord": "Skelturix#0401",
+      "Link": "https://www.youtube.com/c/SkelturixSWGoH",
+      "Credit": "The man who helped bring it all together"
+    },
+    {
+      "Name": "Jubei",
+      "Discord": "JubeiNabeshin#8860",
+      "Link": "",
+      "Credit": "Overall coding badassery"
+    },
+    {
+      "Name": "Reaper",
+      "Discord": "Reaper1395#3566",
+      "Link": "https://swgohbot.com/",
+      "Credit": "Sage advice and ninja coding skills"
+    },
+    {
+      "Name": "Dayma Ω",
+      "Discord": "Dayma Ω#2521",
+      "Link": "",
+      "Credit": "The zeta king of kings"
+    },
+    {
+      "Name": "DajhMaster",
+      "Discord": "DajhMaster#5180",
+      "Link": "",
+      "Credit": "Coding advice and awesomesauce"
+    },
+    {
+      "Name": "AhnoldT101",
+      "Discord": "AhnaldT101#8859",
+      "Link": "https://www.youtube.com/user/AhnaldT101",
+      "Credit": "Recruitment, marketing, and upping the coolness factor"
+    },
+    {
+      "Name": "SirGeorgeous",
+      "Discord": "SirGeorgeous#1353",
+      "Link": "https://www.youtube.com/channel/UCVdGi0658ncAHv_mjkZ8zMg",
+      "Credit": "Adding amazing information and making everything prettier"
+    },
+    {
+      "Name": "CubsFanHan",
+      "Discord": "CubsFanHan#6240",
+      "Link": "https://www.youtube.com/channel/UCDWyx4wMW3RV1Hz8148OIYg",
+      "Credit": "Super duper smart zeta weighting system thingy. #HanShotFirst"
+    },
+    {
+      "Name": "riseoftheBon3",
+      "Discord": "riseoftheBon3#1203",
+      "Link": "https://www.youtube.com/channel/UC_UwsZiUgUYUR6UcBWtlybw",
+      "Credit": "Zeta ranking fiend / Up-and-Coming YouTuber"
+    },
+    {
+      "Name": "Mendawgs",
+      "Discord": "MENDAWGS#2925",
+      "Link": "",
+      "Credit": "Contributory talent"
+    },
+    {
+      "Name": "Mudd",
+      "Discord": "Mudd#6195",
+      "Link": "",
+      "Credit": "Amazing ideas and helpful talent"
+    },
+    {
+      "Name": "Nukin",
+      "Discord": "Nukin#0350",
+      "Link": "http://www.youtube.com/c/Nukin",
+      "Credit": "Master of Game Knowledge"
+    },
+    {
+      "Name": "Halfface01",
+      "Discord": "Halfface01#7284",
+      "Link": "https://discord.gg/wMvF8rZ",
+      "Credit": "Wizard of PvP and arena team crafting"
+    },
+    {
+      "Name": "Mekarogue",
+      "Discord": "Mekarogue#4718",
+      "Link": "https://discord.gg/VsT65EY",
+      "Credit": "Nightsister Nerd!"
+    },
+    {
+      "Name": "Others",
+      "Discord": "",
+      "Link": "",
+      "Credit": "Some anonymous, some we lost contact. You know who you are - we love you and thanks!"
+    }
+  ],
+  "updated": 1547214510161
+}

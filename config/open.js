@@ -13,7 +13,7 @@ module.exports = async () => {
         Report.error(`GEMINI : Please provide a discord token in config`)
         process.exit(0)
     }
-    
+
     Report.info(`GEMINI...Loading monitors and actions`)
 
     //Load monitors and actions
@@ -21,6 +21,11 @@ module.exports = async () => {
 
     Report.info(`GEMINI : Loaded ${Bot.monitors.length} monitors`)
     Report.info(`GEMINI : Loaded ${Object.keys(Bot.actions).length} actions`)
+
+    Report.info(`GEMINI...Loading webUI`)
+
+    //Try load webUI
+    await Bot.webui.init()    
 
     Report.info(`GEMINI...Connecting to Discord`)
 

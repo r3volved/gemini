@@ -1,0 +1,19 @@
+{
+    "event":"guildMemberRemove",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[ "365502000043130880" ],
+        "ignore":{
+            "bots":false,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "actions":[ "send" ],
+    "response":{
+        "channel":"365502000043130882",
+        "content":"Good-bye {member}, I will miss you as much as my programming allows"
+    }
+}

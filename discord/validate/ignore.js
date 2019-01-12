@@ -18,6 +18,13 @@ module.exports = ( monitor ) => {
             : false
         : false
         
+    //Ignore override servers
+    ignore = ignore || monitor.conditions.ignore.servers && monitor.conditions.ignore.servers.length
+        ? monitor.eventParams.member 
+            ? monitor.conditions.ignore.servers.includes( monitor.eventParams.member.guild.id )
+            : false
+        : false
+
     if( ignore ) return true
 
     //Ignore override roles

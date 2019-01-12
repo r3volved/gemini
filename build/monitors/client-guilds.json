@@ -1,0 +1,20 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":["305465187799007232"],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "servers":[]
+        }
+    },
+    "triggers":{
+        "regex":"^gemini servers{1}$"
+    },
+    "actions":[ "botServers", "send" ],
+    "response":""
+}

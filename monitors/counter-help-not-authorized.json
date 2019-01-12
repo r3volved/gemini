@@ -1,0 +1,38 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "servers":["365502000043130880","342498895814721537","266683258488487973"]
+        }
+    },
+    "triggers":{
+        "regex":"^counter\\shelp$"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "embed":{
+            "title":["**{client} Help**","Counter Strategies"],
+            "description":[
+                "Counter strategies are currently exclusive to [SWGoH University](https://discord.gg/euSynux)",
+                "Please join us for further help and discussions!"
+            ],
+            "fields":[{
+                "name":"**== Counter by ==**",
+                "value":[
+                    "`------------------------------`",
+                    "`bounty hunters`, `revan`,",
+                    "`traya`, `cls`",
+                    "`------------------------------`"
+                ],
+                "inline":true
+            }]            
+        }
+    }
+}

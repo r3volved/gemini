@@ -1,0 +1,58 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":["305465187799007232"],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^gemini$"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "embed":{
+            "title":[
+                "**Hello master, what can I help you with?**",
+                "**== Core ==**"
+            ],
+            "description":[
+                "__**Reload**__",
+                "✦ **`reload`**",
+                "__**Status**__",
+                "✦ **`gemini status`**",
+                "__**See what I see**__",
+                "✦ **`gemini sees <message>`**"
+            ],
+            "fields":[{
+                "name":"**== Actions ==**",
+                "value":[
+                    "__**Leave server**__",
+                    "✦ **`gemini leave server <serverId>`**",
+                    "__**Delete mesages**__",
+                    "✦ **`gemini delete <num>`**",
+                    "__**Add / Remove roles**__",
+                    "✦ **`gemini add roles [ <roleName>, ... ] to <@user>, ...`**",
+                    "✦ **`gemini remove roles [ <roleName>, ... ] from <@user>, ...`**"
+                ]
+            },{
+                "name":"**== Reporting ==**",
+                "value":[
+                    "__**Servers I am in**__",
+                    "✦ **`gemini servers`**",
+                    "__**Server details**__",
+                    "✦ **`gemini guild <here|<serverId>>`**",
+                    "__**Channel details**__",
+                    "✦ **`gemini channels <here|<serverId>>`**",
+                    "__**Role details**__",
+                    "✦ **`gemini roles <here|<serverId>>`**"
+                ]
+            }]
+        }
+    }
+}

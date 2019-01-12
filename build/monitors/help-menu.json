@@ -1,0 +1,50 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"^help\\sme\\sgemini$|^gemini\\shelp$"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "content":[
+            "Hello there {@member},"
+        ],
+        "embed":{
+            "title":["**{client} Help**","What can I help you with?"],
+            "description":[
+                "**Looking for my master?**",
+                "Visit <@305465187799007232> and <@410451793751834625> on [ShittyBots](https://discord.gg/XB4DKCt)",
+                "Please consider supporting him on [Patreon](https://www.patreon.com/shittybots)",
+                "**Looking for my source?**",
+                "Download me from [GitHub](https://github.com/r3volved/gemini)"
+            ],
+            "fields":[{
+                "name":"**== Discord ==**",
+                "value":[
+                    "For Discord help center, try **`discord help`**",
+                    "For polling details, try **`poll help`**"    
+                ]
+            },{
+                "name":"**== SWGoH ==**",
+                "value":[
+                    "For SWGoH-bot invites, try **`bot invites`**",
+                    "For counter strategies, try **`counter help`**",
+                    "For modding suggestions, try **`modding help`**",
+                    "For legendary requirements, try **`req help`**",
+                    "For more SWGoH resources, try **`swgoh help`**",
+                    "To search wiki.swgoh.help, try **`wiki find ...`**"
+                ]
+            }]
+        }
+    }
+}

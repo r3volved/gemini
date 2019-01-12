@@ -33,7 +33,7 @@ module.exports = async ( member ) => {
                 
                 //Report actions performed (for dev/debug)
                 if( monitor.actioned.length ) {
-                    Report.dev( "Actions : ", monitor.actioned.map(r => r.action) )        
+                    Report.dev( "GEMINI : Routed => ", monitor.filename+" => ", monitor.actioned.map(r => r.action) )
                 }
                 
             } catch(e) {

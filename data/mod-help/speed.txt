@@ -1,0 +1,71 @@
+Modding help
+
+Top characters requiring SPEED
+
+== 300+ ==
+
+Revan
+Naturally, Revan goes first makes the match easier to win or harder to win depending defense or offense 
+Target speed: 300+
+
+BB-8
+Paired with droids you gain 8%tm/droid to start enabling him drive the team to move first
+Target speed: 300+
+
+== 270+ ==
+
+Bossk
+You want him move first to basically pretaunt
+Target speed: 280+
+
+R2-D2
+Speed is less important than BB-8, paired with BB8 he can use burn first and drive resistance team TM under JTR 
+Target speed: 280+
+
+Enfys Nest
+Speed depends on usage, with ns/scoundrels, speed is nice, for tenacity builds, slow in crucial
+Target speed: 280+
+
+Hermit Yoda
+Drives tm through his basic of 5% for jedi only, also gets offense going with masters training
+Target speed: 270+
+
+GMY
+Fast means more foresight and tenacity up, dont sacrifice too much offense
+Target speed: 270+
+
+== 250+ ==
+
+Poe Dameron
+Poe Moves first so that OG resistance wins without opponent getting a turn
+Target speed: 260+
+
+Thrawn
+If used with thragma, only needs to be faster than sion, if vs revan blazing speed needed
+Target speed: 260+ (thragma) | 290+ (revan)
+
+Starck
+Drives tm through buffs under Veers lead, special gives troopers 20% TM, gains 20 speed from veers lead
+Target speed: 260+
+
+FO Officer
+Moves first passes turn to FOX who grants 10% tm on basic to all FO, gains 30 speed from Kru lead
+Target speed: 250+
+
+== 200+ ==
+
+C-3PO
+More turns always better for non attackers, keeps tm train rolling under jtr lead, +20 speed unique
+Target speed: 240+
+
+Darth Vader
+Under EP lead he moves the entire team allowing them to use slower mods
+Target speed: 230+
+
+NS Zombie
+The more speed she has she basically has perm taunt, durable and fast she ends at 500 speed+
+Target speed: 220+
+
+Paploo
+Starts ewok tm train through calling an assist special, call wicket or logray, wicket boosts everyone TM through AOE
+Target speed: 210+
