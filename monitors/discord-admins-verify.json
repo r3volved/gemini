@@ -1,0 +1,22 @@
+{
+    "priority":10,
+    "event":[ "message" ],
+    "conditions":{
+        "permissions":["ADMINISTRATOR"],
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "dm":true,
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "channels":[]
+        }
+    },
+    "triggers":{
+        "regex":"^verify server$"
+    },
+    "actions":[ "verifyOwnership", "send" ]
+}

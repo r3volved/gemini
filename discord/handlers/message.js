@@ -1,14 +1,17 @@
 //Emitted whenever a message is created
 module.exports = async ( message ) => {
     
+    if( message.type !== 'DEFAULT' ) return
+    
     Bot.monitors
-        .filter(m => !m.event || m.event === "message")
+        .filter(m => !m.event || m.event.includes("message"))
         .forEach(async m => {
 
             //Copy monitor so it can mutate through process
             let monitor = Object.assign({},m)
 
             //Attach event params
+            monitor.paramRef = {message:message}
             monitor.eventParams = { 
                 message : message,
                 author  : message.author,

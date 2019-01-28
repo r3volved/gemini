@@ -1,6 +1,8 @@
 {
-    "event":"message",
+    "priority":10,
+    "event":["message"],
     "conditions":{
+        "permissions":[],
         "authors":[],
         "channels":[],
         "servers":[],
@@ -8,7 +10,8 @@
             "bots":true,
             "self":true,
             "users":[],
-            "roles":[]
+            "roles":[],
+            "channels":[]
         }
     },
     "triggers":{

@@ -1,0 +1,21 @@
+{
+    "priority":10,
+    "event":["ready"],
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "dm":true,
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "channels":[]
+        }
+    },
+    "triggers":{
+        "text":""
+    },
+    "actions":[ "trollLogsConfigs" ]
+}

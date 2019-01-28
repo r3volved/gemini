@@ -1,0 +1,25 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":["365502000043130880","342498895814721537"],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"(((how to|help me) mod)|htm|hmm){1} (night sister|ns){1}"
+    },
+    "actions":[ "modHelp", "send" ],
+    "thumbnail":[
+        "https://swgoh.gg/static/img/assets/tex.charui_ventress.png",
+        "https://swgoh.gg/static/img/assets/tex.charui_nightsisters_talzin.png",
+        "https://swgoh.gg/static/img/assets/tex.charui_daka.png",
+        "https://swgoh.gg/static/img/assets/tex.charui_nightsisters_zombie.png"
+    ],
+    "response":"night-sisters.txt"
+}

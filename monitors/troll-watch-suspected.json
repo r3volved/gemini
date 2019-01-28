@@ -1,0 +1,22 @@
+{
+    "priority":1,
+    "event":["guildMemberAdd", "message"],
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "dm":true,
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "channels":[]
+        }
+    },
+    "actions":[
+        "trollWatchSuspected",
+        "trollWatchEventNotify",
+        "trollWatchEventLogger"
+    ]
+}

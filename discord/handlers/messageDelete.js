@@ -11,13 +11,14 @@ module.exports = async ( message ) => {
     }
     
     Bot.monitors
-        .filter(m => m.event === "messageDelete")
+        .filter(m => m.event && m.event.includes("messageDelete"))
         .forEach(async m => {
 
             //Copy monitor so it can mutate through process
             let monitor = Object.assign({},m)
 
             //Attach event params
+            monitor.paramRef = {message:message}
             monitor.eventParams = { 
                 message : message,
                 author  : message.author,

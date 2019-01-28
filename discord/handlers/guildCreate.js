@@ -2,30 +2,32 @@
 module.exports = async ( guild ) => {
 
     Bot.monitors
-        .filter(m => m.event && m.event === "guildCreate")
+        .filter(m => m.event && m.event.includes("guildCreate"))
         .forEach(async m => {
 
             //Copy monitor so it can mutate through process
             let monitor = Object.assign({},m)
 
-            //Attach event params
-            monitor.eventParams = { 
-                author  : Bot.discord.client.user,
-                channel : guild.systemChannel,
-                member  : Bot.discord.client.user,
-                server  : guild
-            }
-
-            //Create action result container
-            monitor.actioned = []
-            
-            let proceed = Bot.discord.validate( monitor )
-            if( !proceed ) return
-            
-            let triggered = Bot.discord.triggers( monitor )
-            if( !triggered ) return
-
             try {
+
+                //Attach event params
+                monitor.paramRef = {guild:guild}
+                monitor.eventParams = { 
+                    author  : Bot.discord.client.user,
+                    channel : guild.channels.get(guild.systemChannelID),
+                    member  : Bot.discord.client.user,
+                    server  : guild
+                }
+
+                //Create action result container
+                monitor.actioned = []
+                
+                let proceed = Bot.discord.validate( monitor )
+                if( !proceed ) return
+                
+                let triggered = Bot.discord.triggers( monitor )
+                if( !triggered ) return
+
 
                 //Will perform all module.actions in series 
                 //Each result appended to module.actioned

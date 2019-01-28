@@ -1,6 +1,8 @@
 {
-    "event":"message",
+    "priority":10,
+    "event":["message"],
     "conditions":{
+        "permissions":[],
         "authors":["305465187799007232"],
         "channels":[],
         "servers":[],
@@ -9,12 +11,13 @@
             "self":true,
             "users":[],
             "roles":[],
+            "channels":[],
             "servers":[]
         }
     },
     "triggers":{
-        "regex":"^gemini servers{1}$"
+        "regex":"^client servers{1}$"
     },
-    "actions":[ "botServers", "send" ],
+    "actions":[ "clientServers", "send" ],
     "response":""
 }

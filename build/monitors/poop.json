@@ -1,0 +1,23 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "mentions":[
+            "shittybill#3024"
+        ]
+    },
+    "actions":[ "react" ],
+    "response":{
+        "react":"💩"
+    }
+}

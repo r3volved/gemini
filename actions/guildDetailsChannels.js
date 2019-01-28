@@ -1,3 +1,4 @@
+//Report the channels and permissions of channels for a specified guild by guildid
 module.exports = async ( monitor ) => {
 
     const id = monitor.eventParams.message.content.split(/\s+/).find(c => c.match(/^\d{17,18}$/))

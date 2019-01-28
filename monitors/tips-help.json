@@ -1,0 +1,47 @@
+{
+    "priority":10,
+    "event":["message"],
+    "conditions":{
+        "permissions":[],
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "channels":[]
+        }
+    },
+    "triggers":{
+        "regex":"^troll\\s+tips$"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "embed":{
+            "title":[
+                "Troll Trace - Tips"
+            ],
+            "description":[
+                "✦ [Discord Safety: Safe Messaging!](https://support.discordapp.com/hc/en-us/articles/115000068672-Discord-Safety-Safe-Messaging)",
+                "✦ [Three Steps to a Safer Account](https://support.discordapp.com/hc/en-us/articles/115000089272-Three-Steps-to-a-Safer-Account)",
+                "✦ [Three Steps to a Safer Server](https://support.discordapp.com/hc/en-us/articles/115000088971-Three-Steps-to-a-Safer-Server)",
+                "✦ [How to Properly Report Issues to Trust & Safety](https://support.discordapp.com/hc/en-us/articles/360000291932-How-to-Properly-Report-Issues-to-Trust-Safety)",
+                "✦ [Where can I find my User/Server/Message ID?](https://support.discordapp.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID)",
+                "✦ [Requesting a Copy of your Data](https://support.discordapp.com/hc/en-us/articles/360004027692-Requesting-a-Copy-of-your-Data)",
+                "✦ [Your Content Clause Explained](https://support.discordapp.com/hc/en-us/articles/360018659011-Your-Content-Clause-Explained)"
+            ],
+            "fields":[{
+                "name":"Server Permissions",
+                "value":[
+                    "✦ [How is the permission hierarchy structured?](https://support.discordapp.com/hc/en-us/articles/206141927-How-is-the-permission-hierarchy-structured)",
+                    "✦ [How do I set up Permissions?](https://support.discordapp.com/hc/en-us/articles/206029707-How-do-I-set-up-Permissions)",
+                    "✦ [How do I set up a Role-Exclusive channel?](https://support.discordapp.com/hc/en-us/articles/206143877)",
+                    "✦ [How do I set up an announcements channel?](https://support.discordapp.com/hc/en-us/articles/205369668)",
+                    "✦ [Role Management 101](https://support.discordapp.com/hc/en-us/articles/214836687-Role-Management-101)"
+                ]
+            }]
+        }
+    }
+}

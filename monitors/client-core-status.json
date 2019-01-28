@@ -1,19 +1,22 @@
 {
-    "event":"message",
+    "priority":10,
+    "event":["message"],
     "conditions":{
-        "authors":["305465187799007232"],
+        "permissions":["ADMINISTRATOR"],
+        "authors":[],
         "channels":[],
         "servers":[],
         "ignore":{
             "bots":true,
             "self":true,
             "users":[],
-            "roles":[]
+            "roles":[],
+            "channels":[]
         }
     },
     "triggers":{
-        "regex":"^gemini status$"
+        "regex":"^client status$"
     },
-    "actions":[ "botStatus", "send" ],
+    "actions":[ "clientStatus", "send" ],
     "response":""
 }

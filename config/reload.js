@@ -1,5 +1,28 @@
 module.exports = async ( monitor ) => {
 
+    Bot.circularJSON = ( object ) => {
+        let cache = []
+        let stringified = JSON.stringify(object, (key, value) => {
+            if (typeof value === 'object' && value !== null) {
+                if (cache.indexOf(value) !== -1) {
+                    // Duplicate reference found
+                    try {
+                        // If this value does not reference a parent it can be deduped
+                        return JSON.parse(JSON.stringify(value))
+                    } catch (error) {
+                        // discard key if value cannot be deduped
+                        return JSON.stringify({"circularRefId":value.id})
+                    }
+                }
+                // Store value in our collection
+                cache.push(value)
+            }
+            return value
+        }, 2)
+        cache = null
+        return stringified
+    }
+
     monitor.actioned = monitor.actioned || []
     monitor.response = monitor.response || {}
     
@@ -42,6 +65,8 @@ module.exports = async ( monitor ) => {
         }
 
     }
+    
+    Bot.monitors.sort((a,b) => a.priority - b.priority)
     
     //Update module response text
     monitor.response.content = "I have reloaded "+monitorscount+" monitor"+(monitorscount === 1 ? "" : "s")+" "

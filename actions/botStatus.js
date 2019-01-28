@@ -15,13 +15,7 @@ module.exports = async ( monitor ) => {
     actionField += Bot.failed && Bot.failed.actions && Bot.failed.actions.length 
         ? "**Failed to load**\n" + Bot.failed.actions.join("\n")
         : ""
-    
-    let mem = []
-    const used = process.memoryUsage();
-    for (let key in used) {
-      mem.push(`${key} : ${Math.round(used[key] / 1024 / 1024 * 100) / 100} MB`);
-    }
-      
+        
     monitor.response = {
         embed:{
             title: `**${Bot.discord.client.user.username} status**`,
@@ -39,12 +33,7 @@ module.exports = async ( monitor ) => {
                     `**Uptime** : ${(Bot.discord.client.uptime/60000).toFixed(2)} min`,
                     `**Ping** : ${Bot.discord.client.ping.toFixed(2)} ms`,
                     `**Guilds** : ${Bot.discord.client.guilds.size}`,
-                    `**Channels** : ${Bot.discord.client.channels.size}`,
-                    `**Active Polls** : ${Bot.activePolls || 0}`,
-                    ``,
-                    `**Memory Usage**`,
-                    mem.join("\n")
-                    
+                    `**Channels** : ${Bot.discord.client.channels.size}`
                 ],
                 inline: true
             },{

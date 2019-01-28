@@ -1,3 +1,4 @@
+//Forces client to leave a guild by guild-id
 module.exports = async ( monitor ) => {
 
     const id = monitor.eventParams.message.content.split(/\s+/).find(c => c.toString().match(/^\d{17,18}$/))

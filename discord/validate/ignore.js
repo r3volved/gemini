@@ -7,6 +7,10 @@ module.exports = ( monitor ) => {
     //Skip if no ignore parameters
     if( !monitor.conditions || !monitor.conditions.ignore ) return true
 
+    //Ignore dms
+    ignore = monitor.conditions.ignore.dm && monitor.eventParams.channel && monitor.eventParams.channel.type === "dm"
+    if( ignore ) return true
+    
     //Ignore bots
     ignore = monitor.conditions.ignore.bots && monitor.eventParams.author && monitor.eventParams.author.bot
     if( ignore ) return true
@@ -18,6 +22,13 @@ module.exports = ( monitor ) => {
             : false
         : false
         
+    //Ignore override channels
+    ignore = ignore || monitor.conditions.ignore.channels && monitor.conditions.ignore.channels.length
+        ? monitor.eventParams.message
+            ? monitor.conditions.ignore.channels.includes( monitor.eventParams.message.channel.id )
+            : false
+        : false
+
     //Ignore override servers
     ignore = ignore || monitor.conditions.ignore.servers && monitor.conditions.ignore.servers.length
         ? monitor.eventParams.member 

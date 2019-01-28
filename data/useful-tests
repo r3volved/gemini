@@ -1,0 +1,27 @@
+//Where is user found??
+
+test Bot.discord.client.guilds.forEach(async g => { 
+  let found = false; 
+  try { 
+    found = !!(await g.fetchMember("273195655583891456")) 
+  } catch(e) {} 
+  console.log( g.name, found ); 
+})
+
+
+//Unban from all servers
+
+test Bot.discord.client.guilds.forEach(async g => { let found = false; try { found = !!(await g.unban("313351430670909440")) } catch(e) { found = e.message } console.log( g.name, found ); })
+
+
+
+//Ban from all servers
+
+test Bot.discord.client.guilds.forEach(async g => { let found = false; try { found = !!(await g.ban("538252778661871616")) } catch(e) { found = e.message } console.log( g.name, found ); })
+
+
+
+
+//Ban from specific server
+test Bot.discord.client.guilds.get("").ban("").then(Report.info).catch(Report.error)
+

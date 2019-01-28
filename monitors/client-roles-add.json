@@ -1,19 +1,22 @@
 {
-    "event":"message",
+    "priority":10,
+    "event":["message"],
     "conditions":{
-        "authors":["305465187799007232"],
+        "permissions":["ADMINISTRATOR"],
+        "authors":[],
         "channels":[],
         "servers":[],
         "ignore":{
+            "dm":true,
             "bots":true,
             "self":true,
             "users":[],
-            "roles":[]
+            "roles":[],
+            "channels":[]
         }
     },
     "triggers":{
-        "regex":"^gemini\\s+add\\s+roles\\s+\\[\\s+((\\w|\\-|\\s)+(\\,\\s+)*)+\\s+\\]\\sto\\s(\\<\\@\\d{17,18}\\>(\\s)*)+$",
-        "blah":"^gemini add roles"
+        "regex":"^client\\s+add\\s+roles\\s+\\[\\s+((\\w|\\-|\\s)+(\\,\\s+)*)+\\s+\\]\\sto\\s(\\<\\@\\d{17,18}\\>(\\s)*)+$"
     },
     "actions":[ "rolesAddToUser", "send" ],
     "response":""

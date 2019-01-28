@@ -1,6 +1,8 @@
 {
-    "event":"message",
+    "priority":10,
+    "event":["message"],
     "conditions":{
+        "permissions":[],
         "authors":["305465187799007232"],
         "channels":[],
         "servers":[],
@@ -8,12 +10,13 @@
             "bots":true,
             "self":true,
             "users":[],
-            "roles":[]
+            "roles":[],
+            "channels":[]
         }
     },
     "triggers":{
-        "regex":"^gemini leave server \\d{17,18}$"
+        "regex":"^client leave server \\d{17,18}$"
     },
-    "actions":[ "botLeaveServer", "send" ],
+    "actions":[ "clientLeaveServer", "send" ],
     "response":""
 }

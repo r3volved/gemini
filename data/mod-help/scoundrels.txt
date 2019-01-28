@@ -1,0 +1,43 @@
+Scoundrels - Qi'ra Lead
+
+== Core Units ==
+
+Qira
+Stat Priorities: Speed > CC > Potency
+Targets: Speed 230+, CC% 55%+, Potency 70%+
+
+zVandor Chewie
+Stat Priorities: Health > Speed > Crit Avoid
+Targets: Health 40k+, Speed 225+, Crit Avoid 24-35%
+
+L3-37
+Stat Priorities: Heath/Prot > Defense > Crit Avoid
+Targets: Health 40k+ Prot 60k+, Defense 45%+, Crit Avoid 24-35%
+
+== Slot 4 == (Attacker)
+
+zNest
+Stat Priorities: Speed > CD > Potency
+Targets: Speed 270+, CD 216/222%, Potency 60%+
+
+Mission Vao (zeta Optional)
+Stat Priorities: CD > Offense > Speed
+Targets: CD% 216/222%, Offense +500, Speed 220+
+
+Young Han (zeta Optional)
+Stat Priorities: CD > Offense > Speed
+Targets: CD% 216/222, Offense +500, Speed 210+
+
+== Slot 5 == (Tank)
+
+Zaalbar (zeta Optional)
+Stat Priorities: Health > Crit Avoid > Defense
+Targets: Health 45k+, Crit Avoid 24-35%, Defense 40%+
+
+StromTrooper Han
+Stat Priorities: Speed > Health/Prot > Crit Avoid
+Targets: Speed 210+, Health/Prot 50k+ combined, Crit Avoid 24-35%
+
+Captain Han
+Stat Priorities: Speed > Potency > Health
+Targets: Speed 210+, Potency 60%+, Health 35k+

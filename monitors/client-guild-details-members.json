@@ -1,0 +1,22 @@
+{
+    "priority":10,
+    "event":["message"],
+    "conditions":{
+        "permissions":[],
+        "authors":["305465187799007232"],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "channels":[]
+        }
+    },
+    "triggers":{
+        "regex":"^client members (here|\\d{17,18}){1}$"
+    },
+    "actions":[ "guildDetailsMembers", "send" ],
+    "response":""
+}

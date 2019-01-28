@@ -31,7 +31,7 @@ module.exports = async () => {
 
     //Open discord connection
     Bot.discord.init()
-
+    
     return true
 
 }

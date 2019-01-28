@@ -1,0 +1,24 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":["365502000043130880","342498895814721537"],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"(((how to|help me) mod)|htm|hmm){1} (bounty hunter|bh){1}"
+    },
+    "actions":[ "modHelp", "send" ],
+    "thumbnail":[
+        "https://swgoh.gg/static/img/assets/tex.charui_bossk.png",
+        "https://swgoh.gg/static/img/assets/tex.charui_dengar.png",
+        "https://swgoh.gg/static/img/assets/tex.charui_bobafett.png"
+    ],
+    "response":"bounty-hunters.txt"
+}

@@ -1,21 +1,21 @@
 {
-    "event":"message",
+    "priority":10,
+    "event":["message"],
     "conditions":{
-        "authors":[ "305465187799007232" ],
+        "permissions":[],
+        "authors":["305465187799007232", "101825547788632064", "213851436449136640"],
         "channels":[],
         "servers":[],
         "ignore":{
             "bots":true,
             "self":true,
             "users":[],
-            "roles":[]
+            "roles":[],
+            "channels":[]
         }
     },
     "triggers":{ 
-        "regex":"^reload|relaod$" 
+        "regex":"^client reload$" 
     },
-    "actions":[ "reload", "send" ],
-    "response":{ 
-        "content":"automated" 
-    }
+    "actions":[ "reload", "send" ]
 }

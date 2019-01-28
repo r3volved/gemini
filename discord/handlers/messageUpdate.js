@@ -2,14 +2,15 @@
 module.exports = async ( oldMessage, newMessage ) => {
 
     Bot.monitors
-        .filter(m => m.event && m.event === "messageUpdate")
+        .filter(m => m.event && m.event.includes("messageUpdate"))
         .forEach(async m => {
 
             //Copy monitor so it can mutate through process
             let monitor = Object.assign({},m)
 
             //Attach event params
-            monitor.eventParams = { 
+            monitor.paramRef = {oldMessage:oldMessage, newMessage:newMessage}
+            monitor.eventParams = {                 
                 oldMessage : oldMessage,
                 message : newMessage,
                 author  : newMessage.author,

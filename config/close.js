@@ -1,6 +1,8 @@
 const close = ( code ) => {
 
     Report.info( `GEMINI: Recieved kill code ${code}` )
+    
+    let errors = []
 
     if( Bot.discord && Bot.discord.close ) {
         try { 
@@ -9,11 +11,33 @@ const close = ( code ) => {
         } catch(e) {
             Report.info( `GEMINI: Error disconnecting from discord` )
             Report.error( e )
-            process.exit(1)
+            errors.push( e )
         }
     }
     
-    process.exit(0)
+    if( Bot.db && Bot.db.close ) {
+        try { 
+            Bot.db.close()
+            Report.info( `GEMINI: Connection to database has been terminated` )
+        } catch(e) {
+            Report.info( `GEMINI: Error disconnecting from database` )
+            Report.error( e )
+            errors.push( e )
+        }
+    }
+    
+    if( Bot.logs && Bot.logs.close ) {
+        try { 
+            Bot.logs.close()
+            Report.info( `GEMINI: Connection to logs has been terminated` )
+        } catch(e) {
+            Report.info( `GEMINI: Error disconnecting from logs` )
+            Report.error( e )
+            errors.push( e )
+        }
+    }
+    
+    process.exit(errors.length)
 
 }
 //Highjack SIGTERM and SIGINT with this function

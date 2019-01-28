@@ -1,18 +1,22 @@
 {
-    "event":"message",
+    "priority":10,
+    "event":["message"],
     "conditions":{
-        "authors":["305465187799007232"],
+        "permissions":["ADMINISTRATOR"],
+        "authors":[],
         "channels":[],
         "servers":[],
         "ignore":{
+            "dm":true,
             "bots":true,
             "self":true,
             "users":[],
-            "roles":[]
+            "roles":[],
+            "channels":[]
         }
     },
     "triggers":{
-        "regex":"^gemini delete \\d*$"
+        "regex":"^client delete \\d*$"
     },
     "actions":[ "deleteBulk" ],
     "response":""

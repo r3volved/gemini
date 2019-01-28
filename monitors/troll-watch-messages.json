@@ -1,0 +1,18 @@
+{
+    "priority":1,
+    "event":["message"],
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "dm":true,
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "channels":[]
+        }
+    },
+    "actions":["trollWatchGetSettings", "trollWatch"]
+}

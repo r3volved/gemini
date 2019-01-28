@@ -2,13 +2,14 @@
 module.exports = async ( member ) => {
 
     Bot.monitors
-        .filter(m => m.event && m.event === "guildMemberAdd")
+        .filter(m => m.event && m.event.includes("guildMemberAdd"))
         .forEach(async m => {
 
             //Copy monitor so it can mutate through process
             let monitor = Object.assign({},m)
 
             //Attach event params
+            monitor.paramRef = {member:member}
             monitor.eventParams = { 
                 author  : member.user,
                 channel : member.guild.systemChannel,

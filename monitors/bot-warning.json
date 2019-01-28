@@ -12,9 +12,7 @@
         }
     },
     "actions":[ "wildBot", "send" ],
-    "roles":["quarantine"],
     "response":{
-        "channel":"365502000043130882",
         "embed":{
             "title":"Bot warning",
             "description":[],

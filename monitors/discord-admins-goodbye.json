@@ -1,0 +1,22 @@
+{
+    "priority":10,
+    "event":["guildMemberRemove"],
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[ "535118839948771339" ],
+        "ignore":{
+            "dm":true,
+            "bots":false,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "channels":[]
+        }
+    },
+    "actions":[ "send" ],
+    "response":{
+        "channel":"535118839948771341",
+        "content":"Good-bye {member}, thanks for stopping by!"
+    }
+}

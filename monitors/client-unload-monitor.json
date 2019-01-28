@@ -1,0 +1,22 @@
+{
+    "priority":10,
+    "event":["message"],
+    "conditions":{
+        "permissions":[],
+        "authors":["305465187799007232", "101825547788632064", "213851436449136640"],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "channels":[]
+        }
+    },
+    "triggers":{
+        "regex":"^client unload \\w+"
+    },
+    "actions":[ "unloadMonitor" ],
+    "response":""
+}

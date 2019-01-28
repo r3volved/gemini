@@ -1,0 +1,35 @@
+{
+    "priority":10,
+    "event":[ "guildMemberAdd" ],
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[ "535118839948771339" ],
+        "ignore":{
+            "dm":true,
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[],
+            "channels":[]
+        }
+    },
+    "actions":[ "send" ],
+    "response":{
+        "channel":"535118839948771341",
+        "content":"Hello there {@member}!",
+        "embed":{
+            "title":"Welcome to SWGOH Discord Admins!",
+            "description":[
+                "If you run a server with 500 or more members, please jump over to <#535126786158362634>, let us know what server you run and drop an invite so we can verify you.",
+                "Once verified, please update your nickname to include your server name and you're set.",
+                "See <#536666497469120521> for 501-Z invitation and instructions"
+            ],
+            "fields":[{
+                "name":"Note",
+                "value":"501-Z does not require verification to secure your server - verification is currently only to elevate access across **this** server."
+            }],
+            "color":16098851
+        }
+    }
+}

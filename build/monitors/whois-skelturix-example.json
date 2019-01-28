@@ -1,0 +1,30 @@
+{
+    "event":"message",
+    "conditions":{
+        "authors":[],
+        "channels":[],
+        "servers":[],
+        "ignore":{
+            "bots":true,
+            "self":true,
+            "users":[],
+            "roles":[]
+        }
+    },
+    "triggers":{
+        "regex":"who[\\s]*is\\s(skelturix|Skelturix|skel)"
+    },
+    "actions":[ "send" ],
+    "response":{
+        "embed":{
+            "title":"Skelturix",
+            "description":[
+                "**SWGoH Gamechanger**",
+                "[YouTube](https://www.youtube.com/channel/UCoDneAJWwL2Rmh5RnptiROg) | [Discord](https://discord.me/skelturix)",
+                " ",
+                "**Follow Skelturix on Social Media**",
+                "[Twitter](https://twitter.com/skelturix)"
+            ]
+        }
+    }
+}

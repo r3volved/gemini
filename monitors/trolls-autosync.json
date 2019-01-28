@@ -1,0 +1,21 @@
+{
+    "priority":10,
+    "event":["message","messageDelete","messageUpdate"],
+    "conditions":{
+        "authors":[],
+        "channels":["535126312310800418","535126418921750538"],
+        "servers":[],
+        "ignore":{
+            "dm":true,
+            "bots":false,
+            "self":false,
+            "users":[],
+            "roles":[],
+            "channels":[]
+        }
+    },
+    "triggers":{
+        "regex":"\\d{17,18}"
+    },
+    "actions":[ "trollSync" ]
+}

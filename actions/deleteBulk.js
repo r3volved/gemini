@@ -1,3 +1,4 @@
+//Delete requested number of messages from a channel
 module.exports = async ( monitor ) => {
     
     let num = monitor.eventParams.message.content.split(" ").find(c => c.match(/^\d+$/)) || 10    

@@ -1,6 +1,8 @@
 {
-    "event":"message",
+    "priority":10,
+    "event":["message"],
     "conditions":{
+        "permissions":[],
         "authors":["305465187799007232"],
         "channels":[],
         "servers":[],
@@ -8,11 +10,12 @@
             "bots":true,
             "self":true,
             "users":[],
-            "roles":[]
+            "roles":[],
+            "channels":[]
         }
     },
     "triggers":{
-        "regex":"^gemini guild (here|\\d{17,18}){1}$"
+        "regex":"^client guild (here|\\d{17,18}){1}$"
     },
     "actions":[ "guildDetails", "send" ],
     "response":""

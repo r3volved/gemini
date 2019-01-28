@@ -1,3 +1,4 @@
+//Apply speficied roles to specified users
 module.exports = async ( monitor ) => {
 
     let rolesnames = monitor.eventParams.message.content.match(/\[\s+(([\w|\-|\s]+[\,|\s]*)+)\s+\]/g)
