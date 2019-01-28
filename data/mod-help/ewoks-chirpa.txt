@@ -26,3 +26,4 @@ Targets: Health 30k+, Speed 210+, Tenacity 70%+
 Logray
 Priorities: Speed > Potency
 Targets: Speed 210+, Potency 80%+
+

@@ -31,3 +31,4 @@ Targets: Speed 210+, Health/Protection 80k+, CA 24%+
 Ezra (better used with jedi)
 Priorities: CD > Offense > Speed
 Targets: CD 216%+, Offense +400, Speed 230+
+

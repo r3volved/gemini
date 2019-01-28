@@ -49,3 +49,4 @@ Targets: Armor 45%+, Health 40k+, Speed 180+
 Nest
 Priorities: Speed > Potency > CD
 Targets: Speed 290+, Potency 60%+, CD 186/192%
+

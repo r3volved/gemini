@@ -45,3 +45,4 @@ Targets: Speed 210+, Health/Prot 50k+ combined, Crit Avoid 24-35%
 Captain Han
 Priorities: Speed > Potency > Health
 Targets: Speed 210+, Potency 60%+, Health 35k+
+

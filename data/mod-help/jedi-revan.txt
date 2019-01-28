@@ -50,3 +50,4 @@ Targets: Speed 210+, Potency 80%+, Crit Avoid 24%+
 GK
 Priorities: Health > Defense > Crit Avoid > Speed
 Targets: Health 40k+, Defense 42%+, CA 24%+, Speed 200+
+

@@ -44,3 +44,4 @@ Targets: Prot/Health 120K+, Defense 40%+, Tenacity 80%+
 Barris
 Priorities: Health > Defense > Tenacity
 Targets: Health 40K+, Defense 35%+, Speed 180+
+

@@ -35,3 +35,4 @@ Targets: Speed 290+,  CD 186%+, 80%+
 BSF
 Priority: Speed > Potency > Tenacity
 Targets: Speed 230+, Potency 100%+, Tenacity 60%+
+

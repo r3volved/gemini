@@ -40,3 +40,4 @@ Savage Oppress
 Priorities: Speed > CC > CD
 Targets: Speed 200+, CC10%+, CD 186%+
 
+

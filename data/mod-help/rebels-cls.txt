@@ -45,3 +45,4 @@ Targets: Health 40k+, Crit Avoid 24-35%, Tenacity 100%+
 GK
 Priorities: Health/Prot > Crit Avoid > Defense > Speed
 Targets: Health/Prot 120k+, Crit Avoid 24-35%, Defense 40%+
+

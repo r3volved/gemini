@@ -36,3 +36,4 @@ FOTP
 Priorities: CD > Offense > Speed
 Targets: CD 216/222%, Offense 500+, Speed 210+
 
+

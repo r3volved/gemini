@@ -60,3 +60,4 @@ Priorities: Speed > Protection > Health
 Targets: 220+ Speed, 70k+ Protection, 35k+ Health
 If troopers are the top counter to NS, make zombie durable to sustain troopers first onslaught, 120k combined hitpoints and 35% Crit avoidance make troopers a failed battle most often
 
+
